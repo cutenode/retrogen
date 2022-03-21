@@ -1,0 +1,25 @@
+{
+  "name": "@retrogen/core",
+  "version": "0.0.1",
+  "description": "generates data from an organization you pass in",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf output.json",
+    "coverage": "nyc mocha",
+    "dev:output": "node index.js > output.json",
+    "lint": "standard",
+    "test": "mocha"
+  },
+  "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "mocha": "^9.2.2",
+    "nyc": "^15.1.0",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "luxon": "^2.3.1"
+  }
+}
