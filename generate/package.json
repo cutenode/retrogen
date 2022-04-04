@@ -1,15 +1,18 @@
 {
-  "name": "retrogen",
+  "name": "@retrogen/generate",
   "version": "0.0.1",
   "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "luxon": "^2.3.1",
+    "mocha": "^9.2.2",
+    "nyc": "^15.1.0",
+    "standard": "^16.0.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
-  "license": "MIT",
-  "workspaces": [
-    "core",
-    "generate"
-  ]
+  "license": "MIT"
 }
