@@ -123,14 +123,16 @@ async function generateGenericMarkdown (data, types, options = {}) {
 
   // generate the final string we're going to send back
   let output = ''
-  output = output.concat(`${usableOptions.heading}\n`)
-  output = output.concat(`${usableOptions.preface}\n`)
-
+  output = output.concat(`${usableOptions.heading}\n\n`)
+  output = output.concat(`${usableOptions.preface}`)
+  output = output.trim()
+  output = output.concat('\n')
   // loop over the objects that we've generated
   for (const type in typeMarkdown) {
     output = output.concat(typeMarkdown[type])
   }
 
+  console.log(JSON.stringify(typeMarkdown, null, 2))
   // trim beginning/ending whitespace
   output = output.trim()
 
