@@ -2,6 +2,10 @@
 
 A tool that generates Markdown retros for GitHub users and organizaations. This is the all-in-one solution for retrogen that incorporates both the [`@retrogen/core`](../core/) and [`@retrogen/templates`](../templates/) modules.
 
+## Prerequisites
+
+To run this project, it's assumed that you have a GitHub Personal Access Token configured in your environment under the `GITHUB_TOKEN` environment variable. You can either do this manually, automatically with your own tooling, or by adding an appropriately configured `.env` file to your project.
+
 ## Usage
 
 ```js

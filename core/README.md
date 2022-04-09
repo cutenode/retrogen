@@ -2,7 +2,11 @@
 
 The core functionality of retrogen, a tool for generating retrospectives for GitHub activity.
 
-# Usage
+## Prerequisites
+
+To run this project, it's assumed that you have a GitHub Personal Access Token configured in your environment under the `GITHUB_TOKEN` environment variable. You can either do this manually, automatically with your own tooling, or by adding an appropriately configured `.env` file to your project.
+
+## Usage
 
 Basic usage:
 
@@ -27,7 +31,7 @@ generate()
 
 Addtional examples can be found in [`./examples/`](./examples/).
 
-### API 
+## API 
 
 Assuming you've required this module as `core`:
 
