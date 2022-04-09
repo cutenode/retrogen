@@ -9,9 +9,10 @@ graphql = graphql.defaults({
   }
 })
 
-async function generate (options = {}, dates = {}) {
+async function generate (owner, dates = {}, options = {}) {
+  if (!owner) throw new Error('No owner provided.')
+
   const usableOptions = {
-    owner: options.owner,
     sort: options.sort ?? 'updated', // defaults to sorting by most recent
     per_page: options.per_page ?? 100 // defaults to max
   }
@@ -22,7 +23,7 @@ async function generate (options = {}, dates = {}) {
   }
 
   // the query we pass to GitHub. This includes both the owner and the time range we want to search.
-  const generatedQuery = `org:${usableOptions.owner} updated:${usableDates.start}..${usableDates.end}`
+  const generatedQuery = `org:${owner} updated:${usableDates.start}..${usableDates.end}`
   const data = {
     meta: { // general information that we'll want to use in multiple places
       issues: {
@@ -52,14 +53,13 @@ async function generate (options = {}, dates = {}) {
     pullRequests: [], // array of PRs that exist according to the query
     discussions: [] // array of discussions that exist according to the query
   }
+  const queryOptions = { // variables that we pass to coreQuery
+    per_page: usableOptions.per_page,
+    generatedQuery: generatedQuery
+  }
 
   // get our information out of GitHub, using the require'd `query` as our query.
-  const results = await graphql(query,
-    { // variables that we pass to coreQuery
-      per_page: usableOptions.per_page,
-      generatedQuery: generatedQuery
-    }
-  )
+  const results = await graphql(query, queryOptions)
 
   for (const issue in results.issuesPrs.nodes) {
     // generate a usable object for each issue/PR

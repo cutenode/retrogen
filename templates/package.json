@@ -1,0 +1,18 @@
+{
+  "name": "@retrogen/templates",
+  "version": "0.0.1",
+  "description": "templates for retrogen, a markdown generator for GitHub organization data",
+  "main": "index.js",
+  "scripts": {
+    "examples:output:default": "node examples/default.js > examples/output/default.md",
+    "examples:output:usingCore": "node examples/usingCore.js > examples/output/usingCore.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@retrogen/core": "^0.0.1",
+    "luxon": "^2.3.1"
+  }
+}

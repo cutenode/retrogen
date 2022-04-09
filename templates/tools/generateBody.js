@@ -1,38 +1,6 @@
-async function generateGenericMarkdown (data, options = {}) {
-  const usableOptions = {
-    heading: options.heading ?? `# Retrospective for \`${data.meta.owner}\``,
-    preface: options.preface ?? `Reporting on ${data.meta.issues.count} Issues from ${data.meta.issues.authors.count} authors, ${data.meta.pullRequests.count} Pull Requests from ${data.meta.pullRequests.authors.count} authors, and ${data.meta.discussions.count} Discussions from ${data.meta.discussions.authors.count} authors.\n\n`
-  }
+const generateSectionHeader = require('./generateSectionHeader')
 
-  const repos = {}
-
-  for (const type in data) {
-    if (type === 'issues' || type === 'pullRequests' || type === 'discussions') {
-      data[type].forEach(instance => {
-      // generate the bullet, since we're always going to use it
-        const bullet = `- ${instance.meta.title} ([#${instance.meta.number}](${instance.meta.url}))`
-
-        // if this is the first time we're encountering the repo, create a section for into
-        if (repos[instance.repo.name] === undefined) {
-          repos[instance.repo.name] = {
-            open: [],
-            merged: [],
-            closed: []
-          }
-        }
-
-        // populates the appropriate array with the appropriate markdown:
-        if ((instance.meta.type === 'Discussion') || (instance.status.state === 'OPEN' && !instance.status.locked)) {
-          repos[instance.repo.name].open.push({ bullet, type: instance.meta.type })
-        } else if (instance.status.state === 'MERGED') {
-          repos[instance.repo.name].merged.push({ bullet, type: instance.meta.type })
-        } else if (instance.status.state === 'CLOSED' && !instance.status.locked) {
-          repos[instance.repo.name].closed.push({ bullet, type: instance.meta.type })
-        }
-      })
-    }
-  }
-
+async function generateBody (repos) {
   // concat all the strings we've built into a markdown piece
   let markdown = ''
 
@@ -58,13 +26,13 @@ async function generateGenericMarkdown (data, options = {}) {
           // write each bullet out
           if (!garbageCache.includes(`${heading} ${state} ${repos[repo][state][instance].type}`)) {
             garbageCache.push(`${heading} ${state} ${repos[repo][state][instance].type}`)
-            if (repos[repo][state][instance].type === 'Issue') {
+            if (repos[repo][state][instance].type === 'Issue') { // if the instance type is an issue, write the the appropriate header
               const localHeading = await generateSectionHeader(4, 'Issues', state)
               markdown = markdown.concat(localHeading)
-            } else if (repos[repo][state][instance].type === 'PullRequest') {
+            } else if (repos[repo][state][instance].type === 'PullRequest') { // if the instance type is a pull request, write the the appropriate header
               const localHeading = await generateSectionHeader(4, 'Pull Requests', state)
               markdown = markdown.concat(localHeading)
-            } else if (repos[repo][state][instance].type === 'Discussion') {
+            } else if (repos[repo][state][instance].type === 'Discussion') { // if the instance type is a Discussion, write the the appropriate header
               const localHeading = await generateSectionHeader(4, 'Discussions', state)
               markdown = markdown.concat(localHeading)
             }
@@ -75,7 +43,7 @@ async function generateGenericMarkdown (data, options = {}) {
         for (const instance in repos[repo][state]) {
           // same ugly hack as above, just using headings as a store that we can check against before writing the heading
           // write each bullet out
-          if (!garbageCache.includes(`${heading} ${state} ${repos[repo][state][instance].type}`)) {
+          if (!garbageCache.includes(`${heading} ${state} ${repos[repo][state][instance].type}`)) { // caching repos[repo][state][instance].type here is important because it ensures that we're getting _out_ all the correct headers
             garbageCache.push(`${heading} ${state} ${repos[repo][state][instance].type}`)
             const localHeading = await generateSectionHeader(4, 'Pull Requests', state)
             markdown = markdown.concat(localHeading)
@@ -86,7 +54,7 @@ async function generateGenericMarkdown (data, options = {}) {
         for (const instance in repos[repo][state]) {
           // same ugly hack as above, just using headings as a store that we can check against before writing the heading
           // write each bullet out
-          if (!garbageCache.includes(`${heading} ${state} ${repos[repo][state][instance].type}`)) {
+          if (!garbageCache.includes(`${heading} ${state} ${repos[repo][state][instance].type}`)) { // same comment here about repos[repo][state][instance].type as above
             garbageCache.push(`${heading} ${state} ${repos[repo][state][instance].type}`)
             if (repos[repo][state][instance].type === 'Issue') {
               const localHeading = await generateSectionHeader(4, 'Issues', state)
@@ -104,32 +72,7 @@ async function generateGenericMarkdown (data, options = {}) {
     }
   }
 
-  // generate the final string we're going to send back
-  let output = ''
-  output = output.concat(`${usableOptions.heading}\n\n`)
-  output = output.concat(`${usableOptions.preface}`)
-  output = output.trim()
-  output = output.concat('\n')
-  output = output.concat(markdown)
-  output = output.trim()
-
-  return output
+  return markdown
 }
 
-async function generateSectionHeader (level, type, state) {
-  let header = '\n'
-  for (let i = 0; i < level; i++) {
-    header = header.concat('#')
-  }
-  if (state !== undefined) {
-    const capitalizedState = state.charAt(0).toUpperCase() + state.slice(1)
-    header = header.concat(' ', capitalizedState, ' ', type)
-  } else {
-    header = header.concat(' ', type)
-  }
-  header = header.concat('\n\n')
-
-  return header
-}
-
-module.exports = generateGenericMarkdown
+module.exports = generateBody

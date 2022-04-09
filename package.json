@@ -1,15 +1,12 @@
 {
   "name": "retrogen",
   "version": "0.0.1",
-  "description": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "description": "a monorepo for modules under the @retrogen scope. You can find the workspaces listed in the `workspaces` proerty below.",
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
   "workspaces": [
     "core",
-    "generate"
+    "generate",
+    "templates"
   ]
 }
