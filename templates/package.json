@@ -4,15 +4,19 @@
   "description": "templates for retrogen, a markdown generator for GitHub organization data",
   "main": "index.js",
   "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "mocha",
+    "coverage": "nyc mocha",
     "examples:output:default": "node examples/default.js > examples/output/default.md",
-    "examples:output:usingCore": "node examples/usingCore.js > examples/output/usingCore.md",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "examples:output:usingCore": "node examples/usingCore.js > examples/output/usingCore.md"
   },
   "keywords": [],
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
   "devDependencies": {
     "@retrogen/core": "^0.0.1",
+    "dotenv": "^16.0.0",
     "luxon": "^2.3.1"
   }
 }

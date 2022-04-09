@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "mocha",
+    "coverage": "nyc mocha"
   },
   "keywords": [],
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
@@ -14,6 +17,7 @@
     "@retrogen/templates": "^0.0.1"
   },
   "devDependencies": {
+    "dotenv": "^16.0.0",
     "luxon": "^2.3.1",
     "mocha": "^9.2.2",
     "nyc": "^15.1.0",

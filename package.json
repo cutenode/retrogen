@@ -4,6 +4,12 @@
   "description": "a monorepo for modules under the @retrogen scope. You can find the workspaces listed in the `workspaces` proerty below.",
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
+  "scripts": {
+    "lint": "npm run lint --ws",
+    "lint:fix": "npm run lint --fix --ws",
+    "test": "npm run test --ws",
+    "coverage": "npm run coverage --ws"
+  },
   "workspaces": [
     "core",
     "generate",

@@ -4,11 +4,10 @@
   "description": "generates data from an organization you pass in",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf output.json",
-    "coverage": "nyc mocha",
-    "dev:output": "node index.js > output.json",
     "lint": "standard",
-    "test": "mocha"
+    "lint:fix": "standard --fix",
+    "test": "mocha",
+    "coverage": "nyc mocha"
   },
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
