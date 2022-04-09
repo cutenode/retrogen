@@ -8,8 +8,7 @@ async function markdown () {
   }
 
   // this will generate markdown for the Node.js GitHub organization that includes data for Issues, PRs, and Discussions from 2022-03-27 to 2022-04-02
-  const document = await generate('nodejs', dates)
-  console.log(document)
+  await generate('nodejs', dates, { log: true })
 }
 
 markdown()
