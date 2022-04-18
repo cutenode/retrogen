@@ -20,12 +20,12 @@
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
   "devDependencies": {
-    "dotenv": "^16.0.0",
     "mocha": "^9.2.2",
     "nyc": "^15.1.0",
     "standard": "^16.0.4"
   },
   "dependencies": {
+    "dotenv": "^16.0.0",
     "@octokit/rest": "^18.12.0",
     "luxon": "^2.3.1"
   },
