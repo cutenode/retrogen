@@ -7,7 +7,15 @@
     "lint": "standard",
     "lint:fix": "standard --fix",
     "test": "mocha",
-    "coverage": "nyc mocha"
+    "coverage": "nyc mocha",
+    "examples": "npm run examples:default && npm run examples:defaultWithOptions && npm run examples:relativeDate",
+    "examples:output": "npm run examples:default:output && npm run examples:defaultWithOptions:output && npm run examples:relativeDate:output",
+    "examples:default": "node examples/default.js",
+    "examples:defaultWithOptions": "node examples/defaultWithOptions.js",
+    "examples:relativeDate": "node examples/relativeDate.js",
+    "examples:default:output": "node examples/default.js > examples/output/default.md",
+    "examples:defaultWithOptions:output": "node examples/defaultWithOptions.js > examples/output/defaultWithOptions.md",
+    "examples:relativeDate:output": "node examples/relativeDate.js > examples/output/relativeDate.md"
   },
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",

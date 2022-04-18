@@ -8,7 +8,9 @@
     "lint": "npm run lint --ws",
     "lint:fix": "npm run lint --fix --ws",
     "test": "npm run test --ws",
-    "coverage": "npm run coverage --ws"
+    "coverage": "npm run coverage --ws",
+    "examples": "npm run examples --ws",
+    "examples:output": "npm run examples:output --ws"
   },
   "workspaces": [
     "core",

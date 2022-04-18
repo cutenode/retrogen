@@ -7,7 +7,14 @@
     "lint": "standard",
     "lint:fix": "standard --fix",
     "test": "mocha",
-    "coverage": "nyc mocha"
+    "coverage": "nyc mocha",
+    "examples": "npm run examples:default && npm run examples:dynamicDates",
+    "examples:output": "npm run examples:default:output && npm run examples:dynamicDates:output",
+    "examples:default": "node examples/default.js",
+    "examples:dynamicDates": "node examples/dynamicDates.js",
+    "examples:default:output": "node examples/default.js > examples/output/default.md",
+    "examples:dynamicDates:output": "node examples/dynamicDates.js > examples/output/dynamicDates.md"
+
   },
   "keywords": [],
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
