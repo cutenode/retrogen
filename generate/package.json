@@ -20,7 +20,7 @@
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
   "dependencies": {
-    "@retrogen/core": "^0.0.1",
+    "@retrogen/core": "^0.0.2",
     "@retrogen/templates": "^0.0.1"
   },
   "devDependencies": {
