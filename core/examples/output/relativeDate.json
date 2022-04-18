@@ -1527,7 +1527,7 @@
       },
       "timing": {
         "createdAt": "2022-04-18T12:28:29Z",
-        "updatedAt": "2022-04-18T16:31:28Z",
+        "updatedAt": "2022-04-18T17:47:21Z",
         "closedAt": null,
         "mergedAt": null
       },
@@ -1536,7 +1536,7 @@
         "association": "CONTRIBUTOR"
       },
       "comments": {
-        "count": 3
+        "count": 4
       },
       "repo": {
         "id": "MDEwOlJlcG9zaXRvcnkyNzE5Mzc3OQ==",
