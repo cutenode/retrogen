@@ -1,6 +1,6 @@
 {
   "name": "@retrogen/generate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,14 +14,13 @@
     "examples:dynamicDates": "node examples/dynamicDates.js",
     "examples:default:output": "node examples/default.js > examples/output/default.md",
     "examples:dynamicDates:output": "node examples/dynamicDates.js > examples/output/dynamicDates.md"
-
   },
   "keywords": [],
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
   "dependencies": {
     "@retrogen/core": "^0.0.2",
-    "@retrogen/templates": "^0.0.1"
+    "@retrogen/templates": "^0.0.2"
   },
   "devDependencies": {
     "dotenv": "^16.0.0",

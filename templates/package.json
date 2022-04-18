@@ -1,6 +1,6 @@
 {
   "name": "@retrogen/templates",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "templates for retrogen, a markdown generator for GitHub organization data",
   "main": "index.js",
   "scripts": {
