@@ -1,7 +1,7 @@
 {
   "name": "retrogen",
   "version": "0.0.1",
-  "description": "a monorepo for modules under the @retrogen scope. You can find the workspaces listed in the `workspaces` proerty below.",
+  "description": "A tool for generating retrospectives for GitHub activity.",
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
   "scripts": {
