@@ -1,7 +1,7 @@
 const test = require('node:test')
 const { deepStrictEqual } = require('node:assert')
 const { readFile, writeFile, unlink } = require('node:fs/promises')
-const { resolve } = require('node:path');
+const { resolve } = require('node:path')
 const core = require('@retrogen/core')
 const dir = require('../dir')
 const generateRepoInformationFromData = require('../tools/generateRepoInformationFromData')
