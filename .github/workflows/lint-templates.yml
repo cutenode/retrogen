@@ -1,0 +1,28 @@
+name: "Test Suite: Linter (templates)"
+
+on:
+  push:
+  pull_request:
+    paths:
+        - 'templates/**'
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  tests:
+    if: github.repository == 'cutenode/retrogen'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v4
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: current
+    - name: Install most recent npm
+      run: npm install -g npm
+    - name: Run npm install -w templates
+      run: npm install -w templates
+    - name: Run npm run lint -w templates
+      run: npm run lint -w templates
