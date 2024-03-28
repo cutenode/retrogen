@@ -1,0 +1,616 @@
+{
+  "jenkins-alerts": {
+    "open": [
+      {
+        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1419](https://github.com/nodejs/jenkins-alerts/issues/1419))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- test-rackspace-fedora32-x64-1 has low disk space ([#1410](https://github.com/nodejs/jenkins-alerts/issues/1410))",
+        "type": "Issue"
+      }
+    ],
+    "merged": [],
+    "closed": [
+      {
+        "bullet": "- test-orka-macos11-x64-1 has low disk space ([#1418](https://github.com/nodejs/jenkins-alerts/issues/1418))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1417](https://github.com/nodejs/jenkins-alerts/issues/1417))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1416](https://github.com/nodejs/jenkins-alerts/issues/1416))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1415](https://github.com/nodejs/jenkins-alerts/issues/1415))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1414](https://github.com/nodejs/jenkins-alerts/issues/1414))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1413](https://github.com/nodejs/jenkins-alerts/issues/1413))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- test-softlayer-debian12-x64-1 has low disk space ([#1412](https://github.com/nodejs/jenkins-alerts/issues/1412))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- test-ibm-ubuntu2204-x64-2 has low disk space ([#1411](https://github.com/nodejs/jenkins-alerts/issues/1411))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- test-orka-macos11-x64-1 has low disk space ([#1409](https://github.com/nodejs/jenkins-alerts/issues/1409))",
+        "type": "Issue"
+      }
+    ]
+  },
+  "node": {
+    "open": [
+      {
+        "bullet": "- Insufficient server resources prompt \"caniuse-lite is outdated.\" ([#52245](https://github.com/nodejs/node/issues/52245))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- 18.19 -> 18.20 update changed output of Date().toLocaleString('nl'); ([#52244](https://github.com/nodejs/node/issues/52244))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- schedulers not working after certain point of time ([#52243](https://github.com/nodejs/node/issues/52243))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Node.js is showing error \"node: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by node)\" ([#52241](https://github.com/nodejs/node/issues/52241))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Please stop using v8::BackingStore::Reallocate ([#52234](https://github.com/nodejs/node/issues/52234))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Support starting benchmark tasks using taskset on Linux ([#52233](https://github.com/nodejs/node/issues/52233))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Node does not correctly output UTF-8 characters on Git Bash on Windows ([#52232](https://github.com/nodejs/node/issues/52232))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Unable to extract node-v20.11.1-win-arm64.7z file. ([#52231](https://github.com/nodejs/node/issues/52231))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- node 18.20.0 build failure ([#52230](https://github.com/nodejs/node/issues/52230))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- node-addon-api addons broken by default on Node.js 20.12+ ([#52229](https://github.com/nodejs/node/issues/52229))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Significant memory usage increase starting from 20.10.0 for a simple HTTP server (potentially stream related) ([#52228](https://github.com/nodejs/node/issues/52228))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- SIGSEGV when devtools tries to stop at a breakpoint ([#52226](https://github.com/nodejs/node/issues/52226))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Building 20.12.0 with old GLIBC: `sys/random.h: No such file or directory` ([#52223](https://github.com/nodejs/node/issues/52223))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- module: improve detection try catch ([#52242](https://github.com/nodejs/node/pull/52242))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- test_runner: run afterEach hooks in correct order ([#52239](https://github.com/nodejs/node/pull/52239))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- benchmark: add toNamespacedPath bench ([#52236](https://github.com/nodejs/node/pull/52236))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- deps: update undici to 6.10.2 ([#52227](https://github.com/nodejs/node/pull/52227))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- lib: .load .save add proper error message when no file passed ([#52225](https://github.com/nodejs/node/pull/52225))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- test_runner: omit filtered test from output ([#52221](https://github.com/nodejs/node/pull/52221))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- Debugging a timeout leak ([#52238](https://github.com/orgs/nodejs/discussions/52238))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- Backporting 18.19.1 security fixes to 18.18.x ([#52237](https://github.com/orgs/nodejs/discussions/52237))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- Build v16.20.1 failed on macOS ([#52235](https://github.com/orgs/nodejs/discussions/52235))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- In node v18 and above, server is getting closed quickly without honoring the keep-alive timeouts ([#52224](https://github.com/orgs/nodejs/discussions/52224))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- Discord Server ([#52220](https://github.com/orgs/nodejs/discussions/52220))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- Any Plans to Bring Node v21 Fetch to Node v20 or v18? ([#52210](https://github.com/orgs/nodejs/discussions/52210))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- Use v8 in addon with node-addon-api? ([#52202](https://github.com/orgs/nodejs/discussions/52202))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- SEA: how package node_module into single-executable-applications? ([#52194](https://github.com/orgs/nodejs/discussions/52194))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- Node 18 using npm v10.5.0 or above ([#52106](https://github.com/orgs/nodejs/discussions/52106))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- Handling Production Errors in Node.js: Best Practices and Tools ([#50484](https://github.com/orgs/nodejs/discussions/50484))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- How to set npmrc variables via ./configure? ([#40759](https://github.com/orgs/nodejs/discussions/40759))",
+        "type": "Discussion"
+      }
+    ],
+    "merged": [],
+    "closed": [
+      {
+        "bullet": "- The latest minor version update broke ffi-napi compatibility ([#52240](https://github.com/nodejs/node/issues/52240))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- test,crypto: update WebCryptoAPI WPT ([#52222](https://github.com/nodejs/node/pull/52222))",
+        "type": "PullRequest"
+      }
+    ]
+  },
+  "nodejs.org": {
+    "open": [
+      {
+        "bullet": "- Improve Search Results for Docs ([#6577](https://github.com/nodejs/nodejs.org/issues/6577))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Add author image to blog posts ([#6573](https://github.com/nodejs/nodejs.org/issues/6573))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- SEO(`download`): Crawling and indexing ([#6566](https://github.com/nodejs/nodejs.org/issues/6566))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Language En To Bn Converting ([#6561](https://github.com/nodejs/nodejs.org/issues/6561))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Strange behavior of drop-down menu on download page ([#6560](https://github.com/nodejs/nodejs.org/issues/6560))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- RSS alternate link tag does not expose release/vuln feeds ([#6559](https://github.com/nodejs/nodejs.org/issues/6559))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Add internationalization for Urdu speakers (/ur) ([#6555](https://github.com/nodejs/nodejs.org/issues/6555))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Add missing os from website redesign ([#6575](https://github.com/nodejs/nodejs.org/pull/6575))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- Added Hindi language ([#6572](https://github.com/nodejs/nodejs.org/pull/6572))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- fix: Made RouterSelect inline (#6560) ([#6568](https://github.com/nodejs/nodejs.org/pull/6568))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- fix: Changelog trigger and minor visual bugs ([#6567](https://github.com/nodejs/nodejs.org/pull/6567))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- [chore 🐱‍🏍] Added Bengali language config #6561 ([#6564](https://github.com/nodejs/nodejs.org/pull/6564))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- chore: add Uzbek lang to locales ([#6563](https://github.com/nodejs/nodejs.org/pull/6563))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- fix: RSS alternate link tag does not expose release/vuln feeds ([#6562](https://github.com/nodejs/nodejs.org/pull/6562))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- added Urdu language config ([#6556](https://github.com/nodejs/nodejs.org/pull/6556))",
+        "type": "PullRequest"
+      }
+    ],
+    "merged": [
+      {
+        "bullet": "- blog: add april sec release announcement ([#6574](https://github.com/nodejs/nodejs.org/pull/6574))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- Blog: v20.12.0 release post ([#6558](https://github.com/nodejs/nodejs.org/pull/6558))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- Blog: v18.20.0 release post ([#6557](https://github.com/nodejs/nodejs.org/pull/6557))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- feat(search): Enhance shortcut key transition for OS detection ([#6554](https://github.com/nodejs/nodejs.org/pull/6554))",
+        "type": "PullRequest"
+      }
+    ],
+    "closed": [
+      {
+        "bullet": "- Confusing Error Message ([#6576](https://github.com/nodejs/nodejs.org/issues/6576))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Enable Hindi Language Support ([#6570](https://github.com/nodejs/nodejs.org/issues/6570))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Enables Hindi language #6570 ([#6571](https://github.com/nodejs/nodejs.org/pull/6571))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- Added Hindi language  ([#6569](https://github.com/nodejs/nodejs.org/pull/6569))",
+        "type": "PullRequest"
+      }
+    ]
+  },
+  "reliability": {
+    "open": [
+      {
+        "bullet": "- CI Reliability 2024-03-28 ([#819](https://github.com/nodejs/reliability/issues/819))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- CI Reliability 2024-03-27 ([#818](https://github.com/nodejs/reliability/issues/818))",
+        "type": "Issue"
+      }
+    ],
+    "merged": [],
+    "closed": []
+  },
+  "gyp-next": {
+    "open": [],
+    "merged": [],
+    "closed": [
+      {
+        "bullet": "- npm ERR! gyp: Undefined variable android_ndk_path in binding.gyp while trying to load binding.gyp ([#237](https://github.com/nodejs/gyp-next/issues/237))",
+        "type": "Issue"
+      }
+    ]
+  },
+  "performance": {
+    "open": [
+      {
+        "bullet": "- Node.js  Performance Team Meeting 2024-04-01 ([#155](https://github.com/nodejs/performance/issues/155))",
+        "type": "Issue"
+      }
+    ],
+    "merged": [],
+    "closed": []
+  },
+  "security-wg": {
+    "open": [
+      {
+        "bullet": "- OpenSSF Scorecard Report Updated! ([#1266](https://github.com/nodejs/security-wg/issues/1266))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Discuss adding --security-revert to NODE_OPTIONS ([#1262](https://github.com/nodejs/security-wg/issues/1262))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- OpenSSF Scorecard Report Updated ([#1267](https://github.com/nodejs/security-wg/pull/1267))",
+        "type": "PullRequest"
+      }
+    ],
+    "merged": [
+      {
+        "bullet": "- build(deps): bump actions/dependency-review-action from 4.2.4 to 4.2.5 ([#1263](https://github.com/nodejs/security-wg/pull/1263))",
+        "type": "PullRequest"
+      }
+    ],
+    "closed": [
+      {
+        "bullet": "- OpenSSF Scorecard Report Updated! ([#1264](https://github.com/nodejs/security-wg/issues/1264))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- OpenSSF Scorecard Report Updated ([#1265](https://github.com/nodejs/security-wg/pull/1265))",
+        "type": "PullRequest"
+      }
+    ]
+  },
+  "undici": {
+    "open": [
+      {
+        "bullet": "- Wrong information in docs README file ([#3004](https://github.com/nodejs/undici/issues/3004))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Undici cannot be required in --without-intl Node.js ([#3002](https://github.com/nodejs/undici/issues/3002))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- Link to Contributing guide from the README ([#3000](https://github.com/nodejs/undici/issues/3000))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- BodyTimeoutError: Body Timeout Error | Closing process ([#2997](https://github.com/nodejs/undici/issues/2997))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- fallback to Buffer.isUtf8 on platforms without icu ([#3006](https://github.com/nodejs/undici/pull/3006))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- enhancement: link to the contributing guide from the README ([#3003](https://github.com/nodejs/undici/pull/3003))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- Utilize `throwOnError` option in `onError` ([#2996](https://github.com/nodejs/undici/discussions/2996))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- Executing `retry` bound to `RetryHandler` instance instead of `retryOpts` ([#2973](https://github.com/nodejs/undici/discussions/2973))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- Undici.eventSource ([#2976](https://github.com/nodejs/undici/discussions/2976))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- Could it be a problem to use a fetch? ([#2979](https://github.com/nodejs/undici/discussions/2979))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- How does RetryAgent work? ([#2945](https://github.com/nodejs/undici/discussions/2945))",
+        "type": "Discussion"
+      },
+      {
+        "bullet": "- Having issues with retry interceptor ([#2963](https://github.com/nodejs/undici/discussions/2963))",
+        "type": "Discussion"
+      }
+    ],
+    "merged": [
+      {
+        "bullet": "- fix(#2364): concurrent aborts ([#3005](https://github.com/nodejs/undici/pull/3005))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- test: remove only ([#3001](https://github.com/nodejs/undici/pull/3001))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- Revert \"perf: reuse TextDecoder instance (#2863)\" ([#2999](https://github.com/nodejs/undici/pull/2999))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- fix error message ([#2998](https://github.com/nodejs/undici/pull/2998))",
+        "type": "PullRequest"
+      }
+    ],
+    "closed": []
+  },
+  "docker-node": {
+    "open": [],
+    "merged": [
+      {
+        "bullet": "- chore(deps): bump tj-actions/changed-files from 43 to 44 ([#2052](https://github.com/nodejs/docker-node/pull/2052))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- feat: Node.js 18.20.0, 20.12.0 ([#2050](https://github.com/nodejs/docker-node/pull/2050))",
+        "type": "PullRequest"
+      }
+    ],
+    "closed": [
+      {
+        "bullet": "- Major bug was fixed in NPM@10.3.0 concerning nodejs images. ([#2051](https://github.com/nodejs/docker-node/issues/2051))",
+        "type": "Issue"
+      },
+      {
+        "bullet": "- doc: clarify SECURITY repsonsibility ([#2053](https://github.com/nodejs/docker-node/pull/2053))",
+        "type": "PullRequest"
+      }
+    ]
+  },
+  "help": {
+    "open": [
+      {
+        "bullet": "- setImmediate() ,process.nextTick() understanding ([#4366](https://github.com/nodejs/help/issues/4366))",
+        "type": "Issue"
+      }
+    ],
+    "merged": [],
+    "closed": []
+  },
+  "unofficial-builds": {
+    "open": [
+      {
+        "bullet": "- Build v20.12.0 missing/failed ([#126](https://github.com/nodejs/unofficial-builds/issues/126))",
+        "type": "Issue"
+      }
+    ],
+    "merged": [],
+    "closed": []
+  },
+  "build": {
+    "open": [
+      {
+        "bullet": "- ansible: install perf matching the kernel version ([#3665](https://github.com/nodejs/build/pull/3665))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- Hetzner-role-updates ([#3664](https://github.com/nodejs/build/pull/3664))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- ansible: add test-ibm-rhel9-x64-1 ([#3663](https://github.com/nodejs/build/pull/3663))",
+        "type": "PullRequest"
+      }
+    ],
+    "merged": [
+      {
+        "bullet": "- ansible: migrate release-ibm-rhel8-x64-2 ([#3662](https://github.com/nodejs/build/pull/3662))",
+        "type": "PullRequest"
+      }
+    ],
+    "closed": []
+  },
+  "node-core-utils": {
+    "open": [
+      {
+        "bullet": "- fix: adjust pre-sec-release template lint ([#792](https://github.com/nodejs/node-core-utils/pull/792))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- feat: prompt dependency updates url in vulnerabilities.json creation ([#788](https://github.com/nodejs/node-core-utils/pull/788))",
+        "type": "PullRequest"
+      }
+    ],
+    "merged": [
+      {
+        "bullet": "- lib: remove double space on title ([#791](https://github.com/nodejs/node-core-utils/pull/791))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- fix: pre-release crashing on missing vulnerability rating ([#790](https://github.com/nodejs/node-core-utils/pull/790))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- doc: mention git node security ([#789](https://github.com/nodejs/node-core-utils/pull/789))",
+        "type": "PullRequest"
+      }
+    ],
+    "closed": []
+  },
+  "release-cloudflare-worker": {
+    "open": [],
+    "merged": [
+      {
+        "bullet": "- chore: update copyright to include contributors ([#107](https://github.com/nodejs/release-cloudflare-worker/pull/107))",
+        "type": "PullRequest"
+      }
+    ],
+    "closed": []
+  },
+  "email": {
+    "open": [],
+    "merged": [
+      {
+        "bullet": "- Add joyee to zoom message list ([#242](https://github.com/nodejs/email/pull/242))",
+        "type": "PullRequest"
+      }
+    ],
+    "closed": []
+  },
+  "TSC": {
+    "open": [
+      {
+        "bullet": "- Add vote lifecycle workflows and scripts ([#1522](https://github.com/nodejs/TSC/pull/1522))",
+        "type": "PullRequest"
+      }
+    ],
+    "merged": [],
+    "closed": []
+  },
+  "create-node-meeting-artifacts": {
+    "open": [],
+    "merged": [
+      {
+        "bullet": "- Update invited_tsc ([#153](https://github.com/nodejs/create-node-meeting-artifacts/pull/153))",
+        "type": "PullRequest"
+      }
+    ],
+    "closed": []
+  },
+  "llhttp": {
+    "open": [
+      {
+        "bullet": "- build(deps): bump actions/setup-python from 5.0.0 to 5.1.0 ([#342](https://github.com/nodejs/llhttp/pull/342))",
+        "type": "PullRequest"
+      }
+    ],
+    "merged": [],
+    "closed": []
+  },
+  "node-addon-examples": {
+    "open": [
+      {
+        "bullet": "- Bump actions/dependency-review-action from 3.0.6 to 4.2.5 ([#448](https://github.com/nodejs/node-addon-examples/pull/448))",
+        "type": "PullRequest"
+      }
+    ],
+    "merged": [],
+    "closed": []
+  },
+  "node-addon-api": {
+    "open": [
+      {
+        "bullet": "- build(deps): bump actions/setup-python from 5.0.0 to 5.1.0 ([#1471](https://github.com/nodejs/node-addon-api/pull/1471))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- build(deps): bump codecov/codecov-action from 4.1.0 to 4.1.1 ([#1470](https://github.com/nodejs/node-addon-api/pull/1470))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- build(deps): bump actions/dependency-review-action from 4.2.3 to 4.2.5 ([#1469](https://github.com/nodejs/node-addon-api/pull/1469))",
+        "type": "PullRequest"
+      }
+    ],
+    "merged": [],
+    "closed": []
+  },
+  "corepack": {
+    "open": [
+      {
+        "bullet": "- chore(main): release 0.26.1 ([#442](https://github.com/nodejs/corepack/pull/442))",
+        "type": "PullRequest"
+      }
+    ],
+    "merged": [],
+    "closed": []
+  },
+  "Release": {
+    "open": [
+      {
+        "bullet": "- 18.19.1? ([#994](https://github.com/nodejs/Release/discussions/994))",
+        "type": "Discussion"
+      }
+    ],
+    "merged": [],
+    "closed": []
+  }
+}

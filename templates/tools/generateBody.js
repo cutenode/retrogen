@@ -7,6 +7,11 @@ async function generateBody (repos) {
   // cache the headings we've already created so we don't dupe them
   const garbageCache = []
 
+  if (Object.keys(repos) === 0 && repos.constructor === Object) {
+    markdown.concat('No activity!')
+    return markdown
+  }
+
   // I am sorry for how gross this is
   for (const repo in repos) { // go over every repo in the sections object
     const heading = `### ${repo}`

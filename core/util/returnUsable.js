@@ -21,7 +21,7 @@ async function returnUsable (obj, type) {
       mergedAt: obj.mergedAt
     },
     author: {
-      username: obj.author.login,
+      username: obj.author.login ? obj.author.login : "ghost",
       association: obj.authorAssociation
     },
     comments: {
