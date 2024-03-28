@@ -28,3 +28,5 @@ jobs:
       run: npm install -w templates
     - name: Run npm test -w templates
       run: npm test -w templates
+      env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
