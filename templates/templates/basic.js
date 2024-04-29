@@ -20,7 +20,7 @@ async function generateBasicRetro (data, options = {}) {
   const repos = await generateRepoInformationFromData(data)
 
   const body = await generateBody(repos)
-  
+
   const output = await generateDoc(usableOptions.heading, usableOptions.preface, body)
   return output
 }

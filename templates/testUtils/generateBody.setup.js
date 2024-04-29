@@ -1,5 +1,5 @@
 const { writeFile } = require('node:fs/promises')
-const { resolve } = require('node:path');
+const { resolve } = require('node:path')
 const core = require('@retrogen/core')
 const generateRepoInformationFromData = require('../tools/generateRepoInformationFromData')
 const generateBody = require('../tools/generateBody')
@@ -11,8 +11,8 @@ async function setup () {
   const composedData = await generateRepoInformationFromData(data)
   const referencePath = resolve(`${dir}/testUtils/reference/body.md`)
   const body = await generateBody(composedData)
-  
+
   await writeFile(referencePath, body)
 }
 
-setup ()
+setup()

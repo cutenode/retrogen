@@ -19,7 +19,7 @@ test('working with the core module directly should not error', async (context) =
 
   await context.test('ensure all entries have open, merged, and closed', async (context) => {
     const nodejsComposedData = await generateRepoInformationFromData(nodejsData)
-    for(const entry in nodejsComposedData) {
+    for (const entry in nodejsComposedData) {
       deepStrictEqual(Object.hasOwn(nodejsComposedData[entry], 'open'), true)
       deepStrictEqual(Object.hasOwn(nodejsComposedData[entry], 'merged'), true)
       deepStrictEqual(Object.hasOwn(nodejsComposedData[entry], 'closed'), true)
