@@ -8,17 +8,22 @@ const dates = require('./dates.json')
 async function setup () {
   // configuration variables that we use later
   const nodejsReferencePath = resolve(`${dir}/testUtils/reference/generateRepoInformationFromData.nodejs.json`)
-  const twilioReferencePath = resolve(`${dir}/testUtils/reference/generateRepoInformationFromData.twilio.json`)
+  const kubernetesReferencePath = resolve(`${dir}/testUtils/reference/generateRepoInformationFromData.kubernetes.json`)
 
   // get data and compose it
   const nodejsData = await core('nodejs', dates)
-  const twilioData = await core('twilio', dates)
+  const kubernetesData = await core('kubernetes', dates)
   const nodejsComposedData = await generateRepoInformationFromData(nodejsData)
-  const twilioComposedData = await generateRepoInformationFromData(twilioData)
+  const kubernetesComposedData = await generateRepoInformationFromData(kubernetesData)
+
+  console.log('nodejsData', nodejsData)
+  console.log('kubernetesData', kubernetesData)
+  console.log('nodejsComposedData',nodejsComposedData)
+  console.log('kubernetesComposedData',kubernetesComposedData)
 
   // write the composed data to its final location
   await writeFile(nodejsReferencePath, JSON.stringify(nodejsComposedData, null, 2))
-  await writeFile(twilioReferencePath, JSON.stringify(twilioComposedData, null, 2))
+  await writeFile(kubernetesReferencePath, JSON.stringify(kubernetesComposedData, null, 2))
 }
 
 setup()
