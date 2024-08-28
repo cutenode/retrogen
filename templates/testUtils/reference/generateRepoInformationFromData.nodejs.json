@@ -1,537 +1,537 @@
 {
-  "jenkins-alerts": {
-    "open": [],
-    "merged": [],
-    "closed": [
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1427](https://github.com/nodejs/jenkins-alerts/issues/1427))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-1 has low disk space ([#1426](https://github.com/nodejs/jenkins-alerts/issues/1426))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1424](https://github.com/nodejs/jenkins-alerts/issues/1424))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-macstadium-macos11.0-arm64-3 has low disk space ([#1423](https://github.com/nodejs/jenkins-alerts/issues/1423))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1422](https://github.com/nodejs/jenkins-alerts/issues/1422))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-1 has low disk space ([#1421](https://github.com/nodejs/jenkins-alerts/issues/1421))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1420](https://github.com/nodejs/jenkins-alerts/issues/1420))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1419](https://github.com/nodejs/jenkins-alerts/issues/1419))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-1 has low disk space ([#1418](https://github.com/nodejs/jenkins-alerts/issues/1418))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1417](https://github.com/nodejs/jenkins-alerts/issues/1417))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1416](https://github.com/nodejs/jenkins-alerts/issues/1416))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1415](https://github.com/nodejs/jenkins-alerts/issues/1415))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1414](https://github.com/nodejs/jenkins-alerts/issues/1414))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1413](https://github.com/nodejs/jenkins-alerts/issues/1413))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-softlayer-debian12-x64-1 has low disk space ([#1412](https://github.com/nodejs/jenkins-alerts/issues/1412))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-ibm-ubuntu2204-x64-2 has low disk space ([#1411](https://github.com/nodejs/jenkins-alerts/issues/1411))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-rackspace-fedora32-x64-1 has low disk space ([#1410](https://github.com/nodejs/jenkins-alerts/issues/1410))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-1 has low disk space ([#1409](https://github.com/nodejs/jenkins-alerts/issues/1409))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1408](https://github.com/nodejs/jenkins-alerts/issues/1408))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1407](https://github.com/nodejs/jenkins-alerts/issues/1407))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1406](https://github.com/nodejs/jenkins-alerts/issues/1406))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-1 has low disk space ([#1405](https://github.com/nodejs/jenkins-alerts/issues/1405))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1404](https://github.com/nodejs/jenkins-alerts/issues/1404))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-nearform-macos10.15-x64-1 has low disk space ([#1403](https://github.com/nodejs/jenkins-alerts/issues/1403))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1402](https://github.com/nodejs/jenkins-alerts/issues/1402))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-1 has low disk space ([#1401](https://github.com/nodejs/jenkins-alerts/issues/1401))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1400](https://github.com/nodejs/jenkins-alerts/issues/1400))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-1 has low disk space ([#1399](https://github.com/nodejs/jenkins-alerts/issues/1399))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1398](https://github.com/nodejs/jenkins-alerts/issues/1398))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-1 has low disk space ([#1397](https://github.com/nodejs/jenkins-alerts/issues/1397))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- test-orka-macos11-x64-2 has low disk space ([#1396](https://github.com/nodejs/jenkins-alerts/issues/1396))",
-        "type": "Issue"
-      }
-    ]
-  },
-  "node": {
-    "open": [
-      {
-        "bullet": "- Backporting 18.19.1 security fixes to 18.18.x ([#52237](https://github.com/orgs/nodejs/discussions/52237))",
-        "type": "Discussion"
-      },
-      {
-        "bullet": "- Debugging a timeout leak ([#52238](https://github.com/orgs/nodejs/discussions/52238))",
-        "type": "Discussion"
-      },
-      {
-        "bullet": "- Build v16.20.1 failed on macOS ([#52235](https://github.com/orgs/nodejs/discussions/52235))",
-        "type": "Discussion"
-      },
-      {
-        "bullet": "- Handling Production Errors in Node.js: Best Practices and Tools ([#50484](https://github.com/orgs/nodejs/discussions/50484))",
-        "type": "Discussion"
-      },
-      {
-        "bullet": "- How to set npmrc variables via ./configure? ([#40759](https://github.com/orgs/nodejs/discussions/40759))",
-        "type": "Discussion"
-      }
-    ],
-    "merged": [
-      {
-        "bullet": "- v20.12.0 proposal ([#52212](https://github.com/nodejs/node/pull/52212))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- doc: move TSC members from regular to emeritus ([#52209](https://github.com/nodejs/node/pull/52209))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Insufficient server resources prompt \"caniuse-lite is outdated.\" ([#52245](https://github.com/nodejs/node/issues/52245))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- schedulers not working after certain point of time ([#52243](https://github.com/nodejs/node/issues/52243))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- doc: add ccache suport 4 windows ([#52254](https://github.com/nodejs/node/pull/52254))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Update README.md ([#52247](https://github.com/nodejs/node/pull/52247))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "nodejs.org": {
-    "open": [
-      {
-        "bullet": "- Language En To Bn Converting ([#6561](https://github.com/nodejs/nodejs.org/issues/6561))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Add internationalization for Urdu speakers (/ur) ([#6555](https://github.com/nodejs/nodejs.org/issues/6555))",
-        "type": "Issue"
-      }
-    ],
-    "merged": [
-      {
-        "bullet": "- blog: add banner for April security release ([#6578](https://github.com/nodejs/nodejs.org/pull/6578))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- blog: add april sec release announcement ([#6574](https://github.com/nodejs/nodejs.org/pull/6574))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- fix: Changelog trigger and minor visual bugs ([#6567](https://github.com/nodejs/nodejs.org/pull/6567))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- fix: RSS alternate link tag does not expose release/vuln feeds ([#6562](https://github.com/nodejs/nodejs.org/pull/6562))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Blog: v20.12.0 release post ([#6558](https://github.com/nodejs/nodejs.org/pull/6558))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Blog: v18.20.0 release post ([#6557](https://github.com/nodejs/nodejs.org/pull/6557))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- feat(search): Enhance shortcut key transition for OS detection ([#6554](https://github.com/nodejs/nodejs.org/pull/6554))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- meta: bump express from 4.18.3 to 4.19.2 ([#6550](https://github.com/nodejs/nodejs.org/pull/6550))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Chore: add searchbar shortcut indicator ([#6548](https://github.com/nodejs/nodejs.org/pull/6548))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Fixes search page with no query should not throw ([#6547](https://github.com/nodejs/nodejs.org/pull/6547))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- fix(og): use the resolved page title ([#6545](https://github.com/nodejs/nodejs.org/pull/6545))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- style: fix typo in comment: \"to to\" -> \"to\" for clarity. ([#6542](https://github.com/nodejs/nodejs.org/pull/6542))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Confusing Error Message ([#6576](https://github.com/nodejs/nodejs.org/issues/6576))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Enable Hindi Language Support ([#6570](https://github.com/nodejs/nodejs.org/issues/6570))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- SEO(`download`): Crawling and indexing ([#6566](https://github.com/nodejs/nodejs.org/issues/6566))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- RSS alternate link tag does not expose release/vuln feeds ([#6559](https://github.com/nodejs/nodejs.org/issues/6559))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- nodejs.org's i18n is not working ([#6553](https://github.com/nodejs/nodejs.org/issues/6553))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Missing page ([#6549](https://github.com/nodejs/nodejs.org/issues/6549))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Enables Hindi language #6570 ([#6571](https://github.com/nodejs/nodejs.org/pull/6571))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Added Hindi language  ([#6569](https://github.com/nodejs/nodejs.org/pull/6569))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- fix: progression sidebar active color ([#6552](https://github.com/nodejs/nodejs.org/pull/6552))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "reliability": {
-    "open": [
-      {
-        "bullet": "- CI Reliability 2024-03-28 ([#819](https://github.com/nodejs/reliability/issues/819))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- CI Reliability 2024-03-27 ([#818](https://github.com/nodejs/reliability/issues/818))",
-        "type": "Issue"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  },
-  "gyp-next": {
-    "open": [],
-    "merged": [],
-    "closed": [
-      {
-        "bullet": "- npm ERR! gyp: Undefined variable android_ndk_path in binding.gyp while trying to load binding.gyp ([#237](https://github.com/nodejs/gyp-next/issues/237))",
-        "type": "Issue"
-      }
-    ]
-  },
-  "performance": {
-    "open": [
-      {
-        "bullet": "- Node.js  Performance Team Meeting 2024-04-01 ([#155](https://github.com/nodejs/performance/issues/155))",
-        "type": "Issue"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  },
-  "security-wg": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- chore: add minutes doc for 2024-03-28 meeting ([#1268](https://github.com/nodejs/security-wg/pull/1268))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- build(deps): bump actions/dependency-review-action from 4.2.4 to 4.2.5 ([#1263](https://github.com/nodejs/security-wg/pull/1263))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- build(deps): bump actions/dependency-review-action from 4.2.3 to 4.2.4 ([#1261](https://github.com/nodejs/security-wg/pull/1261))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- OpenSSF Scorecard Report Updated! ([#1264](https://github.com/nodejs/security-wg/issues/1264))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Node.js  Security team Meeting 2024-03-28 ([#1260](https://github.com/nodejs/security-wg/issues/1260))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- OpenSSF Scorecard Report Updated ([#1265](https://github.com/nodejs/security-wg/pull/1265))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "docker-node": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- doc: add release key for marco-ippolito ([#2055](https://github.com/nodejs/docker-node/pull/2055))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- chore(deps): bump tj-actions/changed-files from 43 to 44 ([#2052](https://github.com/nodejs/docker-node/pull/2052))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- feat: Node.js 18.20.0, 20.12.0 ([#2050](https://github.com/nodejs/docker-node/pull/2050))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Major bug was fixed in NPM@10.3.0 concerning nodejs images. ([#2051](https://github.com/nodejs/docker-node/issues/2051))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- doc: clarify SECURITY repsonsibility ([#2053](https://github.com/nodejs/docker-node/pull/2053))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "undici": {
-    "open": [
-      {
-        "bullet": "- BodyTimeoutError: Body Timeout Error | Closing process ([#2997](https://github.com/nodejs/undici/issues/2997))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Executing `retry` bound to `RetryHandler` instance instead of `retryOpts` ([#2973](https://github.com/nodejs/undici/discussions/2973))",
-        "type": "Discussion"
-      }
-    ],
-    "merged": [
-      {
-        "bullet": "- fix(workflows): missing top-level content.read permissions ([#3013](https://github.com/nodejs/undici/pull/3013))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- fix: node:util instead of util ([#3007](https://github.com/nodejs/undici/pull/3007))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Revert \"perf: reuse TextDecoder instance (#2863)\" ([#2999](https://github.com/nodejs/undici/pull/2999))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- fix error message ([#2998](https://github.com/nodejs/undici/pull/2998))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- chore: validate responses can be consumed without a Content-Length or… ([#2995](https://github.com/nodejs/undici/pull/2995))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- feat:  added search input ([#2993](https://github.com/nodejs/undici/pull/2993))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- fix(#2986): bad start check ([#2992](https://github.com/nodejs/undici/pull/2992))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "release-cloudflare-worker": {
-    "open": [
-      {
-        "bullet": "- Error: R2 GetObject failed after 5 retries: Error: Comma was expected to separate etags ([#106](https://github.com/nodejs/release-cloudflare-worker/issues/106))",
-        "type": "Issue"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  },
-  "corepack": {
-    "open": [
-      {
-        "bullet": "- How to debug `pnpm` inside corepack? ([#440](https://github.com/nodejs/corepack/issues/440))",
-        "type": "Issue"
-      }
-    ],
-    "merged": [],
-    "closed": [
-      {
-        "bullet": "- chore: use `pipeline` from `node:stream/promises` ([#441](https://github.com/nodejs/corepack/pull/441))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "uvwasi": {
-    "open": [],
-    "merged": [],
-    "closed": [
-      {
-        "bullet": "- Node.js  uvwasi team Meeting 2024-03-27 ([#252](https://github.com/nodejs/uvwasi/issues/252))",
-        "type": "Issue"
-      }
-    ]
-  },
-  "node-gyp": {
-    "open": [],
-    "merged": [],
-    "closed": [
-      {
-        "bullet": "- M2 yarn install failed? ([#3002](https://github.com/nodejs/node-gyp/issues/3002))",
-        "type": "Issue"
-      }
-    ]
-  },
-  "node-core-utils": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- fix: add team mention when notifying ([#793](https://github.com/nodejs/node-core-utils/pull/793))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- fix: adjust pre-sec-release template lint ([#792](https://github.com/nodejs/node-core-utils/pull/792))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- lib: remove double space on title ([#791](https://github.com/nodejs/node-core-utils/pull/791))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- fix: pre-release crashing on missing vulnerability rating ([#790](https://github.com/nodejs/node-core-utils/pull/790))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- doc: mention git node security ([#789](https://github.com/nodejs/node-core-utils/pull/789))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- feat: fetch template directly from nodejs/node ([#787](https://github.com/nodejs/node-core-utils/pull/787))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- feat: automate announcements for pre release ([#786](https://github.com/nodejs/node-core-utils/pull/786))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "build": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Hetzner-role-updates ([#3664](https://github.com/nodejs/build/pull/3664))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- ansible: migrate release-ibm-rhel8-x64-2 ([#3662](https://github.com/nodejs/build/pull/3662))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Add Hetzner benchmark machines to the ansible inventory. ([#3661](https://github.com/nodejs/build/pull/3661))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "email": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Add joyee to zoom message list ([#242](https://github.com/nodejs/email/pull/242))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "create-node-meeting-artifacts": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Update invited_tsc ([#153](https://github.com/nodejs/create-node-meeting-artifacts/pull/153))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  }
+	"jenkins-alerts": {
+		"open": [],
+		"merged": [],
+		"closed": [
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1427](https://github.com/nodejs/jenkins-alerts/issues/1427))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-1 has low disk space ([#1426](https://github.com/nodejs/jenkins-alerts/issues/1426))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1424](https://github.com/nodejs/jenkins-alerts/issues/1424))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-macstadium-macos11.0-arm64-3 has low disk space ([#1423](https://github.com/nodejs/jenkins-alerts/issues/1423))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1422](https://github.com/nodejs/jenkins-alerts/issues/1422))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-1 has low disk space ([#1421](https://github.com/nodejs/jenkins-alerts/issues/1421))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1420](https://github.com/nodejs/jenkins-alerts/issues/1420))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1419](https://github.com/nodejs/jenkins-alerts/issues/1419))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-1 has low disk space ([#1418](https://github.com/nodejs/jenkins-alerts/issues/1418))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1417](https://github.com/nodejs/jenkins-alerts/issues/1417))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1416](https://github.com/nodejs/jenkins-alerts/issues/1416))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1415](https://github.com/nodejs/jenkins-alerts/issues/1415))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1414](https://github.com/nodejs/jenkins-alerts/issues/1414))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1413](https://github.com/nodejs/jenkins-alerts/issues/1413))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-softlayer-debian12-x64-1 has low disk space ([#1412](https://github.com/nodejs/jenkins-alerts/issues/1412))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-ibm-ubuntu2204-x64-2 has low disk space ([#1411](https://github.com/nodejs/jenkins-alerts/issues/1411))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-rackspace-fedora32-x64-1 has low disk space ([#1410](https://github.com/nodejs/jenkins-alerts/issues/1410))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-1 has low disk space ([#1409](https://github.com/nodejs/jenkins-alerts/issues/1409))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1408](https://github.com/nodejs/jenkins-alerts/issues/1408))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1407](https://github.com/nodejs/jenkins-alerts/issues/1407))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1406](https://github.com/nodejs/jenkins-alerts/issues/1406))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-1 has low disk space ([#1405](https://github.com/nodejs/jenkins-alerts/issues/1405))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1404](https://github.com/nodejs/jenkins-alerts/issues/1404))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-nearform-macos10.15-x64-1 has low disk space ([#1403](https://github.com/nodejs/jenkins-alerts/issues/1403))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1402](https://github.com/nodejs/jenkins-alerts/issues/1402))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-1 has low disk space ([#1401](https://github.com/nodejs/jenkins-alerts/issues/1401))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1400](https://github.com/nodejs/jenkins-alerts/issues/1400))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-1 has low disk space ([#1399](https://github.com/nodejs/jenkins-alerts/issues/1399))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1398](https://github.com/nodejs/jenkins-alerts/issues/1398))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-1 has low disk space ([#1397](https://github.com/nodejs/jenkins-alerts/issues/1397))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- test-orka-macos11-x64-2 has low disk space ([#1396](https://github.com/nodejs/jenkins-alerts/issues/1396))",
+				"type": "Issue"
+			}
+		]
+	},
+	"node": {
+		"open": [
+			{
+				"bullet": "- Backporting 18.19.1 security fixes to 18.18.x ([#52237](https://github.com/orgs/nodejs/discussions/52237))",
+				"type": "Discussion"
+			},
+			{
+				"bullet": "- Debugging a timeout leak ([#52238](https://github.com/orgs/nodejs/discussions/52238))",
+				"type": "Discussion"
+			},
+			{
+				"bullet": "- Build v16.20.1 failed on macOS ([#52235](https://github.com/orgs/nodejs/discussions/52235))",
+				"type": "Discussion"
+			},
+			{
+				"bullet": "- Handling Production Errors in Node.js: Best Practices and Tools ([#50484](https://github.com/orgs/nodejs/discussions/50484))",
+				"type": "Discussion"
+			},
+			{
+				"bullet": "- How to set npmrc variables via ./configure? ([#40759](https://github.com/orgs/nodejs/discussions/40759))",
+				"type": "Discussion"
+			}
+		],
+		"merged": [
+			{
+				"bullet": "- v20.12.0 proposal ([#52212](https://github.com/nodejs/node/pull/52212))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- doc: move TSC members from regular to emeritus ([#52209](https://github.com/nodejs/node/pull/52209))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- Insufficient server resources prompt \"caniuse-lite is outdated.\" ([#52245](https://github.com/nodejs/node/issues/52245))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- schedulers not working after certain point of time ([#52243](https://github.com/nodejs/node/issues/52243))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- doc: add ccache suport 4 windows ([#52254](https://github.com/nodejs/node/pull/52254))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Update README.md ([#52247](https://github.com/nodejs/node/pull/52247))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"nodejs.org": {
+		"open": [
+			{
+				"bullet": "- Language En To Bn Converting ([#6561](https://github.com/nodejs/nodejs.org/issues/6561))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- Add internationalization for Urdu speakers (/ur) ([#6555](https://github.com/nodejs/nodejs.org/issues/6555))",
+				"type": "Issue"
+			}
+		],
+		"merged": [
+			{
+				"bullet": "- blog: add banner for April security release ([#6578](https://github.com/nodejs/nodejs.org/pull/6578))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- blog: add april sec release announcement ([#6574](https://github.com/nodejs/nodejs.org/pull/6574))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- fix: Changelog trigger and minor visual bugs ([#6567](https://github.com/nodejs/nodejs.org/pull/6567))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- fix: RSS alternate link tag does not expose release/vuln feeds ([#6562](https://github.com/nodejs/nodejs.org/pull/6562))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Blog: v20.12.0 release post ([#6558](https://github.com/nodejs/nodejs.org/pull/6558))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Blog: v18.20.0 release post ([#6557](https://github.com/nodejs/nodejs.org/pull/6557))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- feat(search): Enhance shortcut key transition for OS detection ([#6554](https://github.com/nodejs/nodejs.org/pull/6554))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- meta: bump express from 4.18.3 to 4.19.2 ([#6550](https://github.com/nodejs/nodejs.org/pull/6550))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Chore: add searchbar shortcut indicator ([#6548](https://github.com/nodejs/nodejs.org/pull/6548))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Fixes search page with no query should not throw ([#6547](https://github.com/nodejs/nodejs.org/pull/6547))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- fix(og): use the resolved page title ([#6545](https://github.com/nodejs/nodejs.org/pull/6545))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- style: fix typo in comment: \"to to\" -> \"to\" for clarity. ([#6542](https://github.com/nodejs/nodejs.org/pull/6542))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- Confusing Error Message ([#6576](https://github.com/nodejs/nodejs.org/issues/6576))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- Enable Hindi Language Support ([#6570](https://github.com/nodejs/nodejs.org/issues/6570))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- SEO(`download`): Crawling and indexing ([#6566](https://github.com/nodejs/nodejs.org/issues/6566))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- RSS alternate link tag does not expose release/vuln feeds ([#6559](https://github.com/nodejs/nodejs.org/issues/6559))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- nodejs.org's i18n is not working ([#6553](https://github.com/nodejs/nodejs.org/issues/6553))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- Missing page ([#6549](https://github.com/nodejs/nodejs.org/issues/6549))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- Enables Hindi language #6570 ([#6571](https://github.com/nodejs/nodejs.org/pull/6571))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Added Hindi language  ([#6569](https://github.com/nodejs/nodejs.org/pull/6569))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- fix: progression sidebar active color ([#6552](https://github.com/nodejs/nodejs.org/pull/6552))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"reliability": {
+		"open": [
+			{
+				"bullet": "- CI Reliability 2024-03-28 ([#819](https://github.com/nodejs/reliability/issues/819))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- CI Reliability 2024-03-27 ([#818](https://github.com/nodejs/reliability/issues/818))",
+				"type": "Issue"
+			}
+		],
+		"merged": [],
+		"closed": []
+	},
+	"gyp-next": {
+		"open": [],
+		"merged": [],
+		"closed": [
+			{
+				"bullet": "- npm ERR! gyp: Undefined variable android_ndk_path in binding.gyp while trying to load binding.gyp ([#237](https://github.com/nodejs/gyp-next/issues/237))",
+				"type": "Issue"
+			}
+		]
+	},
+	"performance": {
+		"open": [
+			{
+				"bullet": "- Node.js  Performance Team Meeting 2024-04-01 ([#155](https://github.com/nodejs/performance/issues/155))",
+				"type": "Issue"
+			}
+		],
+		"merged": [],
+		"closed": []
+	},
+	"security-wg": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- chore: add minutes doc for 2024-03-28 meeting ([#1268](https://github.com/nodejs/security-wg/pull/1268))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- build(deps): bump actions/dependency-review-action from 4.2.4 to 4.2.5 ([#1263](https://github.com/nodejs/security-wg/pull/1263))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- build(deps): bump actions/dependency-review-action from 4.2.3 to 4.2.4 ([#1261](https://github.com/nodejs/security-wg/pull/1261))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- OpenSSF Scorecard Report Updated! ([#1264](https://github.com/nodejs/security-wg/issues/1264))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- Node.js  Security team Meeting 2024-03-28 ([#1260](https://github.com/nodejs/security-wg/issues/1260))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- OpenSSF Scorecard Report Updated ([#1265](https://github.com/nodejs/security-wg/pull/1265))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"docker-node": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- doc: add release key for marco-ippolito ([#2055](https://github.com/nodejs/docker-node/pull/2055))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- chore(deps): bump tj-actions/changed-files from 43 to 44 ([#2052](https://github.com/nodejs/docker-node/pull/2052))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- feat: Node.js 18.20.0, 20.12.0 ([#2050](https://github.com/nodejs/docker-node/pull/2050))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- Major bug was fixed in NPM@10.3.0 concerning nodejs images. ([#2051](https://github.com/nodejs/docker-node/issues/2051))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- doc: clarify SECURITY repsonsibility ([#2053](https://github.com/nodejs/docker-node/pull/2053))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"undici": {
+		"open": [
+			{
+				"bullet": "- BodyTimeoutError: Body Timeout Error | Closing process ([#2997](https://github.com/nodejs/undici/issues/2997))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- Executing `retry` bound to `RetryHandler` instance instead of `retryOpts` ([#2973](https://github.com/nodejs/undici/discussions/2973))",
+				"type": "Discussion"
+			}
+		],
+		"merged": [
+			{
+				"bullet": "- fix(workflows): missing top-level content.read permissions ([#3013](https://github.com/nodejs/undici/pull/3013))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- fix: node:util instead of util ([#3007](https://github.com/nodejs/undici/pull/3007))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Revert \"perf: reuse TextDecoder instance (#2863)\" ([#2999](https://github.com/nodejs/undici/pull/2999))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- fix error message ([#2998](https://github.com/nodejs/undici/pull/2998))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- chore: validate responses can be consumed without a Content-Length or… ([#2995](https://github.com/nodejs/undici/pull/2995))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- feat:  added search input ([#2993](https://github.com/nodejs/undici/pull/2993))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- fix(#2986): bad start check ([#2992](https://github.com/nodejs/undici/pull/2992))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"release-cloudflare-worker": {
+		"open": [
+			{
+				"bullet": "- Error: R2 GetObject failed after 5 retries: Error: Comma was expected to separate etags ([#106](https://github.com/nodejs/release-cloudflare-worker/issues/106))",
+				"type": "Issue"
+			}
+		],
+		"merged": [],
+		"closed": []
+	},
+	"corepack": {
+		"open": [
+			{
+				"bullet": "- How to debug `pnpm` inside corepack? ([#440](https://github.com/nodejs/corepack/issues/440))",
+				"type": "Issue"
+			}
+		],
+		"merged": [],
+		"closed": [
+			{
+				"bullet": "- chore: use `pipeline` from `node:stream/promises` ([#441](https://github.com/nodejs/corepack/pull/441))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"uvwasi": {
+		"open": [],
+		"merged": [],
+		"closed": [
+			{
+				"bullet": "- Node.js  uvwasi team Meeting 2024-03-27 ([#252](https://github.com/nodejs/uvwasi/issues/252))",
+				"type": "Issue"
+			}
+		]
+	},
+	"node-gyp": {
+		"open": [],
+		"merged": [],
+		"closed": [
+			{
+				"bullet": "- M2 yarn install failed? ([#3002](https://github.com/nodejs/node-gyp/issues/3002))",
+				"type": "Issue"
+			}
+		]
+	},
+	"node-core-utils": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- fix: add team mention when notifying ([#793](https://github.com/nodejs/node-core-utils/pull/793))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- fix: adjust pre-sec-release template lint ([#792](https://github.com/nodejs/node-core-utils/pull/792))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- lib: remove double space on title ([#791](https://github.com/nodejs/node-core-utils/pull/791))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- fix: pre-release crashing on missing vulnerability rating ([#790](https://github.com/nodejs/node-core-utils/pull/790))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- doc: mention git node security ([#789](https://github.com/nodejs/node-core-utils/pull/789))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- feat: fetch template directly from nodejs/node ([#787](https://github.com/nodejs/node-core-utils/pull/787))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- feat: automate announcements for pre release ([#786](https://github.com/nodejs/node-core-utils/pull/786))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"build": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Hetzner-role-updates ([#3664](https://github.com/nodejs/build/pull/3664))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- ansible: migrate release-ibm-rhel8-x64-2 ([#3662](https://github.com/nodejs/build/pull/3662))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- Add Hetzner benchmark machines to the ansible inventory. ([#3661](https://github.com/nodejs/build/pull/3661))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"email": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Add joyee to zoom message list ([#242](https://github.com/nodejs/email/pull/242))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"create-node-meeting-artifacts": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Update invited_tsc ([#153](https://github.com/nodejs/create-node-meeting-artifacts/pull/153))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	}
 }

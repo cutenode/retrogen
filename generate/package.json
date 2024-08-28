@@ -1,42 +1,42 @@
 {
-  "name": "@retrogen/generate",
-  "version": "0.0.2",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "biome:format": "npx @biomejs/biome format --write .",
-    "biome:lint": "npx @biomejs/biome lint .",
-    "biome:lint:write": "npx @biomejs/biome lint --write .",
-    "updates:check": "npx npm-check-updates",
-    "updates:update": "npx npm-check-updates -u",
-    "test": "node --test",
-    "coverage": "nyc node --test",
-    "examples": "npm run examples:default && npm run examples:dynamicDates",
-    "examples:output": "npm run examples:default:output && npm run examples:dynamicDates:output",
-    "examples:default": "node examples/default.js",
-    "examples:dynamicDates": "node examples/dynamicDates.js",
-    "examples:default:output": "node examples/default.js > examples/output/default.md",
-    "examples:dynamicDates:output": "node examples/dynamicDates.js > examples/output/dynamicDates.md"
-  },
-  "keywords": [],
-  "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
-  "license": "MIT",
-  "dependencies": {
-    "@retrogen/core": "^0.0.2",
-    "@retrogen/templates": "^0.0.2"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
-    "dotenv": "^16.0.0",
-    "luxon": "^2.3.1",
-    "nyc": "^15.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cutenode/retrogen.git"
-  },
-  "bugs": {
-    "url": "https://github.com/cutenode/retrogen/issues"
-  },
-  "homepage": "https://github.com/cutenode/retrogen#readme"
+	"name": "@retrogen/generate",
+	"version": "0.0.2",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"biome:format": "npx @biomejs/biome format --write .",
+		"biome:lint": "npx @biomejs/biome lint .",
+		"biome:lint:write": "npx @biomejs/biome lint --write .",
+		"updates:check": "npx npm-check-updates",
+		"updates:update": "npx npm-check-updates -u",
+		"test": "node --test",
+		"coverage": "nyc node --test",
+		"examples": "npm run examples:default && npm run examples:dynamicDates",
+		"examples:output": "npm run examples:default:output && npm run examples:dynamicDates:output",
+		"examples:default": "node examples/default.js",
+		"examples:dynamicDates": "node examples/dynamicDates.js",
+		"examples:default:output": "node examples/default.js > examples/output/default.md",
+		"examples:dynamicDates:output": "node examples/dynamicDates.js > examples/output/dynamicDates.md"
+	},
+	"keywords": [],
+	"author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
+	"license": "MIT",
+	"dependencies": {
+		"@retrogen/core": "^0.0.2",
+		"@retrogen/templates": "^0.0.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"dotenv": "^16.0.0",
+		"luxon": "^2.3.1",
+		"nyc": "^15.1.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cutenode/retrogen.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cutenode/retrogen/issues"
+	},
+	"homepage": "https://github.com/cutenode/retrogen#readme"
 }

@@ -1,40 +1,40 @@
 {
-  "name": "@retrogen/templates",
-  "version": "0.0.2",
-  "description": "templates for retrogen, a markdown generator for GitHub organization data",
-  "main": "index.js",
-  "scripts": {
-    "biome:format": "npx @biomejs/biome format --write .",
-    "biome:lint": "npx @biomejs/biome lint .",
-    "biome:lint:write": "npx @biomejs/biome lint --write .",
-    "coverage": "nyc node --test",
-    "examples": "npm run examples:default && npm run examples:usingCore",
-    "examples:output": "npm run examples:default:output && npm run examples:usingCore:output",
-    "examples:default": "node examples/default.js",
-    "examples:usingCore": "node examples/usingCore.js",
-    "examples:default:output": "node examples/default.js > examples/output/default.md",
-    "examples:usingCore:output": "node examples/usingCore.js > examples/output/usingCore.md",
-    "reference": "npm run reference:generateBody && npm run reference:generateRepoInformationFromData",
-    "reference:generateBody": "node testUtils/generateBody.setup.js",
-    "reference:generateRepoInformationFromData": "node testUtils/generateRepoInformationFromData.setup.js",
-    "test": "node --test",
-    "updates:check": "npx npm-check-updates",
-    "updates:update": "npx npm-check-updates -u"
-  },
-  "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
-  "license": "MIT",
-  "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
-    "@retrogen/core": "^0.0.2",
-    "dotenv": "^16.4.5",
-    "luxon": "^3.4.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cutenode/retrogen.git"
-  },
-  "bugs": {
-    "url": "https://github.com/cutenode/retrogen/issues"
-  },
-  "homepage": "https://github.com/cutenode/retrogen#readme"
+	"name": "@retrogen/templates",
+	"version": "0.0.2",
+	"description": "templates for retrogen, a markdown generator for GitHub organization data",
+	"main": "index.js",
+	"scripts": {
+		"biome:format": "npx @biomejs/biome format --write .",
+		"biome:lint": "npx @biomejs/biome lint .",
+		"biome:lint:write": "npx @biomejs/biome lint --write .",
+		"coverage": "nyc node --test",
+		"examples": "npm run examples:default && npm run examples:usingCore",
+		"examples:output": "npm run examples:default:output && npm run examples:usingCore:output",
+		"examples:default": "node examples/default.js",
+		"examples:usingCore": "node examples/usingCore.js",
+		"examples:default:output": "node examples/default.js > examples/output/default.md",
+		"examples:usingCore:output": "node examples/usingCore.js > examples/output/usingCore.md",
+		"reference": "npm run reference:generateBody && npm run reference:generateRepoInformationFromData",
+		"reference:generateBody": "node testUtils/generateBody.setup.js",
+		"reference:generateRepoInformationFromData": "node testUtils/generateRepoInformationFromData.setup.js",
+		"test": "node --test",
+		"updates:check": "npx npm-check-updates",
+		"updates:update": "npx npm-check-updates -u"
+	},
+	"author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"@retrogen/core": "^0.0.2",
+		"dotenv": "^16.4.5",
+		"luxon": "^3.4.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cutenode/retrogen.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cutenode/retrogen/issues"
+	},
+	"homepage": "https://github.com/cutenode/retrogen#readme"
 }

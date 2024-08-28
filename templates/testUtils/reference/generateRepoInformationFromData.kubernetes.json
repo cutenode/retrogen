@@ -1,541 +1,541 @@
 {
-  "client-go": {
-    "open": [],
-    "merged": [],
-    "closed": [
-      {
-        "bullet": "- Watcher emits StatusInternalServerError when API server closes a watch gracefully with 200 ([#1340](https://github.com/kubernetes/client-go/issues/1340))",
-        "type": "Issue"
-      }
-    ]
-  },
-  "kubernetes": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- releng: update publishing bot rules for 1.30 ([#124078](https://github.com/kubernetes/kubernetes/pull/124078))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Even if the container has failed, the DaemonSet pod's phase still shows running ([#124095](https://github.com/kubernetes/kubernetes/issues/124095))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- DRA: kubelet:  error preparing devices for claim ([#124090](https://github.com/kubernetes/kubernetes/issues/124090))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Failed to watch *v1.Service: failed to list *v1.Service ([#124058](https://github.com/kubernetes/kubernetes/issues/124058))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- NewVolumeManagerReconstruction: Volumes are reported as unmounted after reboot ([#124057](https://github.com/kubernetes/kubernetes/issues/124057))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- K8s workers NotReady, Kubelet stopped posting node status, kubelet service log \"Error getting node\" err=\"node \\\"workernode\\\" not found\" \"failed to ensure lease exists\" ([#124054](https://github.com/kubernetes/kubernetes/issues/124054))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- fix: kubelet crash when DRA plugin returns nil UnprepareResourceResponse ([#124085](https://github.com/kubernetes/kubernetes/pull/124085))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "release": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- update set-cap image to use debian-base bookworm-v1.0.2 ([#3525](https://github.com/kubernetes/release/pull/3525))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- rebuild debian-base and tag to bookworm-v1.0.2 ([#3522](https://github.com/kubernetes/release/pull/3522))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- build(deps): bump the actions group with 1 update ([#3521](https://github.com/kubernetes/release/pull/3521))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- The repository 'https://pkgs.k8s.io kubernetes-xenial InRelease' is not signed ([#3524](https://github.com/kubernetes/release/issues/3524))",
-        "type": "Issue"
-      }
-    ]
-  },
-  "ingress-nginx": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Bump the all group with 3 updates ([#11166](https://github.com/kubernetes/ingress-nginx/pull/11166))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Error from server (NotFound): services \"nginx-ingress-nginx-ingress\" not found ([#11171](https://github.com/kubernetes/ingress-nginx/issues/11171))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Chart: Implement Giant Swarm changes. ([#11168](https://github.com/kubernetes/ingress-nginx/pull/11168))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "kubeadm": {
-    "open": [],
-    "merged": [],
-    "closed": [
-      {
-        "bullet": "- kubeadm init failed ([#3038](https://github.com/kubernetes/kubeadm/issues/3038))",
-        "type": "Issue"
-      }
-    ]
-  },
-  "kubectl": {
-    "open": [],
-    "merged": [],
-    "closed": [
-      {
-        "bullet": "- Use oc create job --from=cronjob/foo -- bar ([#1578](https://github.com/kubernetes/kubectl/issues/1578))",
-        "type": "Issue"
-      }
-    ]
-  },
-  "website": {
-    "open": [
-      {
-        "bullet": "- [es] Translate - `docs/concepts/architecture/mixed-version-proxy` into Spanish ([#45699](https://github.com/kubernetes/website/issues/45699))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- [es] Translate - `docs/concepts/architecture/garbage-collection` into Spanish ([#45697](https://github.com/kubernetes/website/issues/45697))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- [es] Translate - `docs/concepts/architecture/controller` into Spanish ([#45696](https://github.com/kubernetes/website/issues/45696))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- [es] Update Translate - `docs/concepts/architecture/cloud-controller` into Spanish ([#45695](https://github.com/kubernetes/website/issues/45695))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- [es] Update Translate - `docs/concepts/architecture/cgroups` into Spanish ([#45694](https://github.com/kubernetes/website/issues/45694))",
-        "type": "Issue"
-      }
-    ],
-    "merged": [
-      {
-        "bullet": "- Fix typo in kubeadm-config v1beta4 config reference ([#45709](https://github.com/kubernetes/website/pull/45709))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- pkgs.k8s.io: fix nits from previous PRs ([#45705](https://github.com/kubernetes/website/pull/45705))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Fix broken hyperlink ([#45704](https://github.com/kubernetes/website/pull/45704))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- [ja] fix typo cluster-level-pss.md ([#45703](https://github.com/kubernetes/website/pull/45703))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- [hi] Update the Build link in README file ([#45701](https://github.com/kubernetes/website/pull/45701))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Update legacy repos deprecation blog to reflect repos removal ([#45685](https://github.com/kubernetes/website/pull/45685))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Upgrade note about nodeName to warning ([#45683](https://github.com/kubernetes/website/pull/45683))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Update pkgs.k8s.io blog to reflect legacy repos removal ([#45682](https://github.com/kubernetes/website/pull/45682))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Update a few dead/outdated links in the \"live and let live\" blog post ([#45681](https://github.com/kubernetes/website/pull/45681))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Fix spelling error in sidecar-containers.md ([#45680](https://github.com/kubernetes/website/pull/45680))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- KEP-3998: Rephrase JobSuccessPolicy documentations ([#45677](https://github.com/kubernetes/website/pull/45677))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Add a note to specify the required Hugo version in the prerequisites. ([#45676](https://github.com/kubernetes/website/pull/45676))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Merge main branch into dev-1.30 ([#45675](https://github.com/kubernetes/website/pull/45675))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- [dev-1.30] Remove useless line wrap ([#45670](https://github.com/kubernetes/website/pull/45670))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Want to create a Docker image of an existing EKS pod or any pod. ([#45679](https://github.com/kubernetes/website/issues/45679))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Kubelet Configuration (v1) ([#45667](https://github.com/kubernetes/website/issues/45667))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Pofg ([#45716](https://github.com/kubernetes/website/pull/45716))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- update control-plane-node-communication/ ([#45712](https://github.com/kubernetes/website/pull/45712))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "test-infra": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Switch autobump schedule to DST ([#32335](https://github.com/kubernetes/test-infra/pull/32335))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Fix prow job ci-kubernetes-gce-conformance-latest ([#32333](https://github.com/kubernetes/test-infra/pull/32333))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- update release-utils to use go1.22 ([#32331](https://github.com/kubernetes/test-infra/pull/32331))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- update bom jobs to use go1.22 ([#32327](https://github.com/kubernetes/test-infra/pull/32327))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- update mdtoc jobs to use go1.22 ([#32326](https://github.com/kubernetes/test-infra/pull/32326))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Run multikueue e2e tests in a separate job ([#32325](https://github.com/kubernetes/test-infra/pull/32325))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Use Go1.22 for kube-scheduler-simulator ([#32324](https://github.com/kubernetes/test-infra/pull/32324))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Update OpenShift testgrid definitions by auto-testgrid-generator job at Thu, 28 Mar 2024 00:03:03 UTC ([#32323](https://github.com/kubernetes/test-infra/pull/32323))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Create Minio secret for credentials to protect exposure in env ([#32322](https://github.com/kubernetes/test-infra/pull/32322))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Update Prow to v20240327-a58d781f5a ([#32320](https://github.com/kubernetes/test-infra/pull/32320))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Set up presubmits for LeaderWorkerSet e2e tests ([#32319](https://github.com/kubernetes/test-infra/pull/32319))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- [releng] Add 1.30 and remove 1.26 milestone_applier rules ([#32318](https://github.com/kubernetes/test-infra/pull/32318))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Adjust resources for CAPO e2e ([#32317](https://github.com/kubernetes/test-infra/pull/32317))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Update cloud-provider-azure-config.yaml ([#32316](https://github.com/kubernetes/test-infra/pull/32316))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Update OpenShift testgrid definitions by auto-testgrid-generator job at Wed, 27 Mar 2024 00:02:15 UTC ([#32314](https://github.com/kubernetes/test-infra/pull/32314))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Update Prow to v20240326-008f55ad3f ([#32313](https://github.com/kubernetes/test-infra/pull/32313))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Deprecate Phaino since it does not support decorated jobs which have been the standard for years now. ([#32312](https://github.com/kubernetes/test-infra/pull/32312))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Avoid K8s-Prow specific unit tests in the prow/ directory. ([#32311](https://github.com/kubernetes/test-infra/pull/32311))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Make RequireSelfApproval documentation less ambiguous ([#32309](https://github.com/kubernetes/test-infra/pull/32309))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Update Prow to v20240326-b7ee8eb083 ([#32307](https://github.com/kubernetes/test-infra/pull/32307))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Update OpenShift testgrid definitions by auto-testgrid-generator job at Tue, 26 Mar 2024 00:06:19 UTC ([#32305](https://github.com/kubernetes/test-infra/pull/32305))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Set up presubmits for LeaderWorkerSet e2e tests ([#32310](https://github.com/kubernetes/test-infra/pull/32310))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "minikube": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- CI: Add ability to get headlamp version ([#18535](https://github.com/kubernetes/minikube/pull/18535))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Build(deps): Bump kubernetes-sigs/release-actions from 0.1.3 to 0.1.4 ([#18533](https://github.com/kubernetes/minikube/pull/18533))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Build(deps): Bump google.golang.org/api from 0.171.0 to 0.172.0 ([#18519](https://github.com/kubernetes/minikube/pull/18519))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Build(deps): Bump github.com/distribution/reference from 0.5.0 to 0.6.0 ([#18518](https://github.com/kubernetes/minikube/pull/18518))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Upgrade Headlamp version to 0.23.1 ([#18517](https://github.com/kubernetes/minikube/pull/18517))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Build(deps): Bump github.com/cenkalti/backoff/v4 from 4.2.1 to 4.3.0 ([#18511](https://github.com/kubernetes/minikube/pull/18511))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Build(deps): Bump github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace from 1.21.0 to 1.22.0 ([#18510](https://github.com/kubernetes/minikube/pull/18510))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- update releases-beta.json & releases-beta-v2.json to include v1.33.0-beta.0 ([#18509](https://github.com/kubernetes/minikube/pull/18509))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- v1.33.0-beta.0 release ([#18507](https://github.com/kubernetes/minikube/pull/18507))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Kicbase/ISO: Update docker from 25.0.4 to 26.0.0 ([#18527](https://github.com/kubernetes/minikube/pull/18527))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Kicbase/ISO: Update buildkit from v0.13.0 to v0.13.1 ([#18516](https://github.com/kubernetes/minikube/pull/18516))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Kicbase/ISO: Update crun from 1.14 to 1.14.4 ([#18515](https://github.com/kubernetes/minikube/pull/18515))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "k8s.io": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Image promotion for set-cap bookworm-v1.0.2 ([#6627](https://github.com/kubernetes/k8s.io/pull/6627))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Image promotion for build-image bookworm-v1.0.2 ([#6625](https://github.com/kubernetes/k8s.io/pull/6625))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- GCP: add a DL to provide access to codesearch ([#6624](https://github.com/kubernetes/k8s.io/pull/6624))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- releng: Image promotion for kubernetes v1.31.0-alpha.0 ([#6623](https://github.com/kubernetes/k8s.io/pull/6623))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- releng: Image promotion for kubernetes v1.30.0-rc.0 ([#6621](https://github.com/kubernetes/k8s.io/pull/6621))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Image promotion for cluster-api v1.7.0-beta.1 ([#6620](https://github.com/kubernetes/k8s.io/pull/6620))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Image promotion for metrics-server v0.7.1 ([#6619](https://github.com/kubernetes/k8s.io/pull/6619))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- audit: update as of 2024-03-28 ([#6617](https://github.com/kubernetes/k8s.io/pull/6617))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Image promotion for set-cap bookworm-v1.0.2 ([#6626](https://github.com/kubernetes/k8s.io/pull/6626))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "dashboard": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- feat(chart): bump chart to 7.1.3 ([#8841](https://github.com/kubernetes/dashboard/pull/8841))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- fix: login guard and me service initialization ([#8840](https://github.com/kubernetes/dashboard/pull/8840))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "org": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- add tomasaschan to kubernetes-sigs, kubernetes ([#4851](https://github.com/kubernetes/org/pull/4851))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Add elbehery to etcd-io members. ([#4849](https://github.com/kubernetes/org/pull/4849))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "kops": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Refactor: Move nodeUpConfigBuilder to nodemodel ([#16429](https://github.com/kubernetes/kops/pull/16429))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- refactor: isolate asset construction out of cloudup ([#16428](https://github.com/kubernetes/kops/pull/16428))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- refactor: move assets into their own package ([#16426](https://github.com/kubernetes/kops/pull/16426))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "cloud-provider-openstack": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- [docs] Update the release procedure ([#2565](https://github.com/kubernetes/cloud-provider-openstack/pull/2565))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "cloud-provider-aws": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Support rc tag ([#889](https://github.com/kubernetes/cloud-provider-aws/pull/889))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Bump tag to 1.30.0-rc.0 ([#887](https://github.com/kubernetes/cloud-provider-aws/pull/887))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Bump k8s lib to 0.30.0-rc.0 ([#886](https://github.com/kubernetes/cloud-provider-aws/pull/886))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Bump tag to 1.30.0-rc.0 ([#888](https://github.com/kubernetes/cloud-provider-aws/pull/888))",
-        "type": "PullRequest"
-      }
-    ]
-  },
-  "publishing-bot": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Drop replace directives on tagged versions ([#416](https://github.com/kubernetes/publishing-bot/pull/416))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "autoscaler": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Remove unused NodeInfoProcessor ([#6662](https://github.com/kubernetes/autoscaler/pull/6662))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "enhancements": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Add kube-apiserver to feature-gate components for MinDomainsInPodTopologySpread ([#4560](https://github.com/kubernetes/enhancements/pull/4560))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "contributor-site": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- Make `hack/gen-content.sh` discover GNU `grep` and `sed` on macOS ([#492](https://github.com/kubernetes/contributor-site/pull/492))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "kube-state-metrics": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- build(deps): Bump github.com/stretchr/testify from 1.8.4 to 1.9.0 ([#2350](https://github.com/kubernetes/kube-state-metrics/pull/2350))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "sig-release": {
-    "open": [
-      {
-        "bullet": "- Kubernetes 1.30 Major Themes ([#2424](https://github.com/kubernetes/sig-release/discussions/2424))",
-        "type": "Discussion"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  }
+	"client-go": {
+		"open": [],
+		"merged": [],
+		"closed": [
+			{
+				"bullet": "- Watcher emits StatusInternalServerError when API server closes a watch gracefully with 200 ([#1340](https://github.com/kubernetes/client-go/issues/1340))",
+				"type": "Issue"
+			}
+		]
+	},
+	"kubernetes": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- releng: update publishing bot rules for 1.30 ([#124078](https://github.com/kubernetes/kubernetes/pull/124078))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- Even if the container has failed, the DaemonSet pod's phase still shows running ([#124095](https://github.com/kubernetes/kubernetes/issues/124095))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- DRA: kubelet:  error preparing devices for claim ([#124090](https://github.com/kubernetes/kubernetes/issues/124090))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- Failed to watch *v1.Service: failed to list *v1.Service ([#124058](https://github.com/kubernetes/kubernetes/issues/124058))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- NewVolumeManagerReconstruction: Volumes are reported as unmounted after reboot ([#124057](https://github.com/kubernetes/kubernetes/issues/124057))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- K8s workers NotReady, Kubelet stopped posting node status, kubelet service log \"Error getting node\" err=\"node \\\"workernode\\\" not found\" \"failed to ensure lease exists\" ([#124054](https://github.com/kubernetes/kubernetes/issues/124054))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- fix: kubelet crash when DRA plugin returns nil UnprepareResourceResponse ([#124085](https://github.com/kubernetes/kubernetes/pull/124085))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"release": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- update set-cap image to use debian-base bookworm-v1.0.2 ([#3525](https://github.com/kubernetes/release/pull/3525))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- rebuild debian-base and tag to bookworm-v1.0.2 ([#3522](https://github.com/kubernetes/release/pull/3522))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- build(deps): bump the actions group with 1 update ([#3521](https://github.com/kubernetes/release/pull/3521))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- The repository 'https://pkgs.k8s.io kubernetes-xenial InRelease' is not signed ([#3524](https://github.com/kubernetes/release/issues/3524))",
+				"type": "Issue"
+			}
+		]
+	},
+	"ingress-nginx": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Bump the all group with 3 updates ([#11166](https://github.com/kubernetes/ingress-nginx/pull/11166))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- Error from server (NotFound): services \"nginx-ingress-nginx-ingress\" not found ([#11171](https://github.com/kubernetes/ingress-nginx/issues/11171))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- Chart: Implement Giant Swarm changes. ([#11168](https://github.com/kubernetes/ingress-nginx/pull/11168))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"kubeadm": {
+		"open": [],
+		"merged": [],
+		"closed": [
+			{
+				"bullet": "- kubeadm init failed ([#3038](https://github.com/kubernetes/kubeadm/issues/3038))",
+				"type": "Issue"
+			}
+		]
+	},
+	"kubectl": {
+		"open": [],
+		"merged": [],
+		"closed": [
+			{
+				"bullet": "- Use oc create job --from=cronjob/foo -- bar ([#1578](https://github.com/kubernetes/kubectl/issues/1578))",
+				"type": "Issue"
+			}
+		]
+	},
+	"website": {
+		"open": [
+			{
+				"bullet": "- [es] Translate - `docs/concepts/architecture/mixed-version-proxy` into Spanish ([#45699](https://github.com/kubernetes/website/issues/45699))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- [es] Translate - `docs/concepts/architecture/garbage-collection` into Spanish ([#45697](https://github.com/kubernetes/website/issues/45697))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- [es] Translate - `docs/concepts/architecture/controller` into Spanish ([#45696](https://github.com/kubernetes/website/issues/45696))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- [es] Update Translate - `docs/concepts/architecture/cloud-controller` into Spanish ([#45695](https://github.com/kubernetes/website/issues/45695))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- [es] Update Translate - `docs/concepts/architecture/cgroups` into Spanish ([#45694](https://github.com/kubernetes/website/issues/45694))",
+				"type": "Issue"
+			}
+		],
+		"merged": [
+			{
+				"bullet": "- Fix typo in kubeadm-config v1beta4 config reference ([#45709](https://github.com/kubernetes/website/pull/45709))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- pkgs.k8s.io: fix nits from previous PRs ([#45705](https://github.com/kubernetes/website/pull/45705))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Fix broken hyperlink ([#45704](https://github.com/kubernetes/website/pull/45704))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- [ja] fix typo cluster-level-pss.md ([#45703](https://github.com/kubernetes/website/pull/45703))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- [hi] Update the Build link in README file ([#45701](https://github.com/kubernetes/website/pull/45701))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Update legacy repos deprecation blog to reflect repos removal ([#45685](https://github.com/kubernetes/website/pull/45685))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Upgrade note about nodeName to warning ([#45683](https://github.com/kubernetes/website/pull/45683))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Update pkgs.k8s.io blog to reflect legacy repos removal ([#45682](https://github.com/kubernetes/website/pull/45682))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Update a few dead/outdated links in the \"live and let live\" blog post ([#45681](https://github.com/kubernetes/website/pull/45681))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Fix spelling error in sidecar-containers.md ([#45680](https://github.com/kubernetes/website/pull/45680))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- KEP-3998: Rephrase JobSuccessPolicy documentations ([#45677](https://github.com/kubernetes/website/pull/45677))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Add a note to specify the required Hugo version in the prerequisites. ([#45676](https://github.com/kubernetes/website/pull/45676))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Merge main branch into dev-1.30 ([#45675](https://github.com/kubernetes/website/pull/45675))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- [dev-1.30] Remove useless line wrap ([#45670](https://github.com/kubernetes/website/pull/45670))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- Want to create a Docker image of an existing EKS pod or any pod. ([#45679](https://github.com/kubernetes/website/issues/45679))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- Kubelet Configuration (v1) ([#45667](https://github.com/kubernetes/website/issues/45667))",
+				"type": "Issue"
+			},
+			{
+				"bullet": "- Pofg ([#45716](https://github.com/kubernetes/website/pull/45716))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- update control-plane-node-communication/ ([#45712](https://github.com/kubernetes/website/pull/45712))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"test-infra": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Switch autobump schedule to DST ([#32335](https://github.com/kubernetes/test-infra/pull/32335))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Fix prow job ci-kubernetes-gce-conformance-latest ([#32333](https://github.com/kubernetes/test-infra/pull/32333))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- update release-utils to use go1.22 ([#32331](https://github.com/kubernetes/test-infra/pull/32331))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- update bom jobs to use go1.22 ([#32327](https://github.com/kubernetes/test-infra/pull/32327))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- update mdtoc jobs to use go1.22 ([#32326](https://github.com/kubernetes/test-infra/pull/32326))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Run multikueue e2e tests in a separate job ([#32325](https://github.com/kubernetes/test-infra/pull/32325))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Use Go1.22 for kube-scheduler-simulator ([#32324](https://github.com/kubernetes/test-infra/pull/32324))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Update OpenShift testgrid definitions by auto-testgrid-generator job at Thu, 28 Mar 2024 00:03:03 UTC ([#32323](https://github.com/kubernetes/test-infra/pull/32323))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Create Minio secret for credentials to protect exposure in env ([#32322](https://github.com/kubernetes/test-infra/pull/32322))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Update Prow to v20240327-a58d781f5a ([#32320](https://github.com/kubernetes/test-infra/pull/32320))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Set up presubmits for LeaderWorkerSet e2e tests ([#32319](https://github.com/kubernetes/test-infra/pull/32319))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- [releng] Add 1.30 and remove 1.26 milestone_applier rules ([#32318](https://github.com/kubernetes/test-infra/pull/32318))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Adjust resources for CAPO e2e ([#32317](https://github.com/kubernetes/test-infra/pull/32317))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Update cloud-provider-azure-config.yaml ([#32316](https://github.com/kubernetes/test-infra/pull/32316))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Update OpenShift testgrid definitions by auto-testgrid-generator job at Wed, 27 Mar 2024 00:02:15 UTC ([#32314](https://github.com/kubernetes/test-infra/pull/32314))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Update Prow to v20240326-008f55ad3f ([#32313](https://github.com/kubernetes/test-infra/pull/32313))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Deprecate Phaino since it does not support decorated jobs which have been the standard for years now. ([#32312](https://github.com/kubernetes/test-infra/pull/32312))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Avoid K8s-Prow specific unit tests in the prow/ directory. ([#32311](https://github.com/kubernetes/test-infra/pull/32311))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Make RequireSelfApproval documentation less ambiguous ([#32309](https://github.com/kubernetes/test-infra/pull/32309))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Update Prow to v20240326-b7ee8eb083 ([#32307](https://github.com/kubernetes/test-infra/pull/32307))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Update OpenShift testgrid definitions by auto-testgrid-generator job at Tue, 26 Mar 2024 00:06:19 UTC ([#32305](https://github.com/kubernetes/test-infra/pull/32305))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- Set up presubmits for LeaderWorkerSet e2e tests ([#32310](https://github.com/kubernetes/test-infra/pull/32310))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"minikube": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- CI: Add ability to get headlamp version ([#18535](https://github.com/kubernetes/minikube/pull/18535))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Build(deps): Bump kubernetes-sigs/release-actions from 0.1.3 to 0.1.4 ([#18533](https://github.com/kubernetes/minikube/pull/18533))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Build(deps): Bump google.golang.org/api from 0.171.0 to 0.172.0 ([#18519](https://github.com/kubernetes/minikube/pull/18519))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Build(deps): Bump github.com/distribution/reference from 0.5.0 to 0.6.0 ([#18518](https://github.com/kubernetes/minikube/pull/18518))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Upgrade Headlamp version to 0.23.1 ([#18517](https://github.com/kubernetes/minikube/pull/18517))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Build(deps): Bump github.com/cenkalti/backoff/v4 from 4.2.1 to 4.3.0 ([#18511](https://github.com/kubernetes/minikube/pull/18511))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Build(deps): Bump github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace from 1.21.0 to 1.22.0 ([#18510](https://github.com/kubernetes/minikube/pull/18510))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- update releases-beta.json & releases-beta-v2.json to include v1.33.0-beta.0 ([#18509](https://github.com/kubernetes/minikube/pull/18509))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- v1.33.0-beta.0 release ([#18507](https://github.com/kubernetes/minikube/pull/18507))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- Kicbase/ISO: Update docker from 25.0.4 to 26.0.0 ([#18527](https://github.com/kubernetes/minikube/pull/18527))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Kicbase/ISO: Update buildkit from v0.13.0 to v0.13.1 ([#18516](https://github.com/kubernetes/minikube/pull/18516))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Kicbase/ISO: Update crun from 1.14 to 1.14.4 ([#18515](https://github.com/kubernetes/minikube/pull/18515))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"k8s.io": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Image promotion for set-cap bookworm-v1.0.2 ([#6627](https://github.com/kubernetes/k8s.io/pull/6627))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Image promotion for build-image bookworm-v1.0.2 ([#6625](https://github.com/kubernetes/k8s.io/pull/6625))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- GCP: add a DL to provide access to codesearch ([#6624](https://github.com/kubernetes/k8s.io/pull/6624))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- releng: Image promotion for kubernetes v1.31.0-alpha.0 ([#6623](https://github.com/kubernetes/k8s.io/pull/6623))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- releng: Image promotion for kubernetes v1.30.0-rc.0 ([#6621](https://github.com/kubernetes/k8s.io/pull/6621))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Image promotion for cluster-api v1.7.0-beta.1 ([#6620](https://github.com/kubernetes/k8s.io/pull/6620))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Image promotion for metrics-server v0.7.1 ([#6619](https://github.com/kubernetes/k8s.io/pull/6619))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- audit: update as of 2024-03-28 ([#6617](https://github.com/kubernetes/k8s.io/pull/6617))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- Image promotion for set-cap bookworm-v1.0.2 ([#6626](https://github.com/kubernetes/k8s.io/pull/6626))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"dashboard": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- feat(chart): bump chart to 7.1.3 ([#8841](https://github.com/kubernetes/dashboard/pull/8841))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- fix: login guard and me service initialization ([#8840](https://github.com/kubernetes/dashboard/pull/8840))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"org": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- add tomasaschan to kubernetes-sigs, kubernetes ([#4851](https://github.com/kubernetes/org/pull/4851))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Add elbehery to etcd-io members. ([#4849](https://github.com/kubernetes/org/pull/4849))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"kops": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Refactor: Move nodeUpConfigBuilder to nodemodel ([#16429](https://github.com/kubernetes/kops/pull/16429))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- refactor: isolate asset construction out of cloudup ([#16428](https://github.com/kubernetes/kops/pull/16428))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- refactor: move assets into their own package ([#16426](https://github.com/kubernetes/kops/pull/16426))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"cloud-provider-openstack": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- [docs] Update the release procedure ([#2565](https://github.com/kubernetes/cloud-provider-openstack/pull/2565))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"cloud-provider-aws": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Support rc tag ([#889](https://github.com/kubernetes/cloud-provider-aws/pull/889))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Bump tag to 1.30.0-rc.0 ([#887](https://github.com/kubernetes/cloud-provider-aws/pull/887))",
+				"type": "PullRequest"
+			},
+			{
+				"bullet": "- Bump k8s lib to 0.30.0-rc.0 ([#886](https://github.com/kubernetes/cloud-provider-aws/pull/886))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": [
+			{
+				"bullet": "- Bump tag to 1.30.0-rc.0 ([#888](https://github.com/kubernetes/cloud-provider-aws/pull/888))",
+				"type": "PullRequest"
+			}
+		]
+	},
+	"publishing-bot": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Drop replace directives on tagged versions ([#416](https://github.com/kubernetes/publishing-bot/pull/416))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"autoscaler": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Remove unused NodeInfoProcessor ([#6662](https://github.com/kubernetes/autoscaler/pull/6662))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"enhancements": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Add kube-apiserver to feature-gate components for MinDomainsInPodTopologySpread ([#4560](https://github.com/kubernetes/enhancements/pull/4560))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"contributor-site": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- Make `hack/gen-content.sh` discover GNU `grep` and `sed` on macOS ([#492](https://github.com/kubernetes/contributor-site/pull/492))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"kube-state-metrics": {
+		"open": [],
+		"merged": [
+			{
+				"bullet": "- build(deps): Bump github.com/stretchr/testify from 1.8.4 to 1.9.0 ([#2350](https://github.com/kubernetes/kube-state-metrics/pull/2350))",
+				"type": "PullRequest"
+			}
+		],
+		"closed": []
+	},
+	"sig-release": {
+		"open": [
+			{
+				"bullet": "- Kubernetes 1.30 Major Themes ([#2424](https://github.com/kubernetes/sig-release/discussions/2424))",
+				"type": "Discussion"
+			}
+		],
+		"merged": [],
+		"closed": []
+	}
 }

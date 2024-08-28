@@ -1,28 +1,49 @@
-const test = require('node:test')
-const { deepStrictEqual } = require('node:assert')
-const core = require('@retrogen/core')
-const generateRepoInformationFromData = require('../tools/generateRepoInformationFromData')
-const nodejsReference = require('../testUtils/reference/generateRepoInformationFromData.nodejs.json')
-const kubernetesReference = require('../testUtils/reference/generateRepoInformationFromData.kubernetes.json')
-const dates = require('../testUtils/dates.json')
+const test = require('node:test');
+const { deepStrictEqual } = require('node:assert');
+const core = require('@retrogen/core');
+const generateRepoInformationFromData = require('../tools/generateRepoInformationFromData');
+const nodejsReference = require('../testUtils/reference/generateRepoInformationFromData.nodejs.json');
+const kubernetesReference = require('../testUtils/reference/generateRepoInformationFromData.kubernetes.json');
+const dates = require('../testUtils/dates.json');
 
 test('working with the core module directly should not error', async (context) => {
-  const nodejsData = await core('nodejs', dates)
-  const kubernetesData = await core('kubernetes', dates)
+	const nodejsData = await core('nodejs', dates);
+	const kubernetesData = await core('kubernetes', dates);
 
-  await context.test('should have the correct keys at the highest level', async (context) => {
-    const nodejsComposedData = await generateRepoInformationFromData(nodejsData)
-    const kubernetesComposedData = await generateRepoInformationFromData(kubernetesData)
-    deepStrictEqual(Object.keys(nodejsComposedData), Object.keys(nodejsReference))
-    deepStrictEqual(Object.keys(kubernetesComposedData), Object.keys(kubernetesReference))
-  })
+	await context.test(
+		'should have the correct keys at the highest level',
+		async (context) => {
+			const nodejsComposedData =
+				await generateRepoInformationFromData(nodejsData);
+			const kubernetesComposedData =
+				await generateRepoInformationFromData(kubernetesData);
+			deepStrictEqual(
+				Object.keys(nodejsComposedData),
+				Object.keys(nodejsReference),
+			);
+			deepStrictEqual(
+				Object.keys(kubernetesComposedData),
+				Object.keys(kubernetesReference),
+			);
+		},
+	);
 
-  await context.test('ensure all entries have open, merged, and closed', async (context) => {
-    const nodejsComposedData = await generateRepoInformationFromData(nodejsData)
-    for (const entry in nodejsComposedData) {
-      deepStrictEqual(Object.hasOwn(nodejsComposedData[entry], 'open'), true)
-      deepStrictEqual(Object.hasOwn(nodejsComposedData[entry], 'merged'), true)
-      deepStrictEqual(Object.hasOwn(nodejsComposedData[entry], 'closed'), true)
-    }
-  })
-})
+	await context.test(
+		'ensure all entries have open, merged, and closed',
+		async (context) => {
+			const nodejsComposedData =
+				await generateRepoInformationFromData(nodejsData);
+			for (const entry in nodejsComposedData) {
+				deepStrictEqual(Object.hasOwn(nodejsComposedData[entry], 'open'), true);
+				deepStrictEqual(
+					Object.hasOwn(nodejsComposedData[entry], 'merged'),
+					true,
+				);
+				deepStrictEqual(
+					Object.hasOwn(nodejsComposedData[entry], 'closed'),
+					true,
+				);
+			}
+		},
+	);
+});

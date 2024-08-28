@@ -1,7 +1,6 @@
 // I'm sorry I did this, I just didn't want this massive string in the main file.
 
-module.exports =
-`query ($endCursor: String, $generatedQuery: String!, $per_page: Int!) {
+module.exports = `query ($endCursor: String, $generatedQuery: String!, $per_page: Int!) {
   issuesPrs: search(
     first: $per_page
     after: $endCursor
@@ -116,4 +115,4 @@ module.exports =
       }
     }
   }
-}`
+}`;
