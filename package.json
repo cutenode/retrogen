@@ -5,12 +5,15 @@
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
   "scripts": {
-    "lint": "npm run lint --ws",
-    "lint:fix": "npm run lint --fix --ws",
-    "test": "npm run test --ws",
+    "biome:format": "npm run biome:format --ws",
+		"biome:lint": "npm run biome:lint --ws",
+		"biome:lint:write": "npm run biome:lint:write --ws",
     "coverage": "npm run coverage --ws",
     "examples": "npm run examples --ws",
-    "examples:output": "npm run examples:output --ws"
+    "examples:output": "npm run examples:output --ws",
+    "test": "npm run test --ws",
+		"updates:check": "npx run updates:check --ws",
+		"updates:update": "npm run updates:update --ws"
   },
   "workspaces": [
     "core",

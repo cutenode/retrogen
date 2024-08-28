@@ -4,9 +4,9 @@
   "description": "templates for retrogen, a markdown generator for GitHub organization data",
   "main": "index.js",
   "scripts": {
-    "lint": "standard",
-    "lint:fix": "standard --fix",
-    "test": "node --test",
+    "biome:format": "npx @biomejs/biome format --write .",
+    "biome:lint": "npx @biomejs/biome lint .",
+    "biome:lint:write": "npx @biomejs/biome lint --write .",
     "coverage": "nyc node --test",
     "examples": "npm run examples:default && npm run examples:usingCore",
     "examples:output": "npm run examples:default:output && npm run examples:usingCore:output",
@@ -16,12 +16,15 @@
     "examples:usingCore:output": "node examples/usingCore.js > examples/output/usingCore.md",
     "reference": "npm run reference:generateBody && npm run reference:generateRepoInformationFromData",
     "reference:generateBody": "node testUtils/generateBody.setup.js",
-    "reference:generateRepoInformationFromData": "node testUtils/generateRepoInformationFromData.setup.js"
+    "reference:generateRepoInformationFromData": "node testUtils/generateRepoInformationFromData.setup.js",
+    "test": "node --test",
+    "updates:check": "npx npm-check-updates",
+    "updates:update": "npx npm-check-updates -u"
   },
-  "keywords": [],
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
   "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
     "@retrogen/core": "^0.0.2",
     "dotenv": "^16.4.5",
     "luxon": "^3.4.4"

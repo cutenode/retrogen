@@ -3,7 +3,7 @@ async function generateRepoInformationFromData (data) {
 
   for (const type in data) {
     if (type === 'issues' || type === 'pullRequests' || type === 'discussions') {
-      data[type].forEach(instance => {
+      for (const instance of data[type]) {
       // generate the bullet, since we're always going to use it
         const bullet = `- ${instance.meta.title} ([#${instance.meta.number}](${instance.meta.url}))`
 
@@ -24,7 +24,7 @@ async function generateRepoInformationFromData (data) {
         } else if (instance.status.state === 'CLOSED' && !instance.status.locked) {
           repos[instance.repo.name].closed.push({ bullet, type: instance.meta.type })
         }
-      })
+      }
     }
   }
 

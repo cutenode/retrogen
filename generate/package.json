@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "standard",
-    "lint:fix": "standard --fix",
+    "biome:format": "npx @biomejs/biome format --write .",
+    "biome:lint": "npx @biomejs/biome lint .",
+    "biome:lint:write": "npx @biomejs/biome lint --write .",
+    "updates:check": "npx npm-check-updates",
+    "updates:update": "npx npm-check-updates -u",
     "test": "node --test",
     "coverage": "nyc node --test",
     "examples": "npm run examples:default && npm run examples:dynamicDates",
@@ -23,10 +26,10 @@
     "@retrogen/templates": "^0.0.2"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
     "dotenv": "^16.0.0",
     "luxon": "^2.3.1",
-    "nyc": "^15.1.0",
-    "standard": "^16.0.4"
+    "nyc": "^15.1.0"
   },
   "repository": {
     "type": "git",
