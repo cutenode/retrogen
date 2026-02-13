@@ -6,8 +6,8 @@
   "scripts": {
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "test": "mocha",
-    "coverage": "nyc mocha",
+    "test": "node --test",
+    "coverage": "nyc node --test",
     "examples": "npm run examples:default && npm run examples:defaultWithOptions && npm run examples:relativeDate",
     "examples:output": "npm run examples:default:output && npm run examples:defaultWithOptions:output && npm run examples:relativeDate:output",
     "examples:default": "node examples/default.js",
@@ -20,7 +20,6 @@
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^9.2.2",
     "nyc": "^15.1.0",
     "standard": "^16.0.4"
   },
