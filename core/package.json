@@ -1,6 +1,6 @@
 {
   "name": "@retrogen/core",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "generates data from an organization you pass in",
   "main": "index.js",
   "scripts": {
