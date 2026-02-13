@@ -25,7 +25,7 @@ async function generate (owner, dates = {}, options = {}) {
   }
 
   // the query we pass to GitHub. This includes both the owner and the time range we want to search.
-  const generatedQuery = `org:${owner} updated:${usableDates.start}..${usableDates.end}`
+  const generatedQuery = `org:"${owner}" updated:${usableDates.start}..${usableDates.end}`
   const data = {
     meta: { // general information that we'll want to use in multiple places
       issues: {
