@@ -1,13 +1,16 @@
 
 ### jenkins-alerts
 
-#### Open Issues
-
-- test-orka-macos11-x64-2 has low disk space ([#1419](https://github.com/nodejs/jenkins-alerts/issues/1419))
-- test-rackspace-fedora32-x64-1 has low disk space ([#1410](https://github.com/nodejs/jenkins-alerts/issues/1410))
-
 #### Closed Issues
 
+- test-orka-macos11-x64-2 has low disk space ([#1427](https://github.com/nodejs/jenkins-alerts/issues/1427))
+- test-orka-macos11-x64-1 has low disk space ([#1426](https://github.com/nodejs/jenkins-alerts/issues/1426))
+- test-orka-macos11-x64-2 has low disk space ([#1424](https://github.com/nodejs/jenkins-alerts/issues/1424))
+- test-macstadium-macos11.0-arm64-3 has low disk space ([#1423](https://github.com/nodejs/jenkins-alerts/issues/1423))
+- test-orka-macos11-x64-1 has low disk space ([#1421](https://github.com/nodejs/jenkins-alerts/issues/1421))
+- test-orka-macos11-x64-2 has low disk space ([#1422](https://github.com/nodejs/jenkins-alerts/issues/1422))
+- test-orka-macos11-x64-2 has low disk space ([#1420](https://github.com/nodejs/jenkins-alerts/issues/1420))
+- test-orka-macos11-x64-2 has low disk space ([#1419](https://github.com/nodejs/jenkins-alerts/issues/1419))
 - test-orka-macos11-x64-1 has low disk space ([#1418](https://github.com/nodejs/jenkins-alerts/issues/1418))
 - test-orka-macos11-x64-2 has low disk space ([#1417](https://github.com/nodejs/jenkins-alerts/issues/1417))
 - test-orka-macos11-x64-2 has low disk space ([#1416](https://github.com/nodejs/jenkins-alerts/issues/1416))
@@ -16,91 +19,64 @@
 - test-orka-macos11-x64-2 has low disk space ([#1413](https://github.com/nodejs/jenkins-alerts/issues/1413))
 - test-softlayer-debian12-x64-1 has low disk space ([#1412](https://github.com/nodejs/jenkins-alerts/issues/1412))
 - test-ibm-ubuntu2204-x64-2 has low disk space ([#1411](https://github.com/nodejs/jenkins-alerts/issues/1411))
+- test-rackspace-fedora32-x64-1 has low disk space ([#1410](https://github.com/nodejs/jenkins-alerts/issues/1410))
 - test-orka-macos11-x64-1 has low disk space ([#1409](https://github.com/nodejs/jenkins-alerts/issues/1409))
+- test-orka-macos11-x64-2 has low disk space ([#1408](https://github.com/nodejs/jenkins-alerts/issues/1408))
+- test-orka-macos11-x64-2 has low disk space ([#1407](https://github.com/nodejs/jenkins-alerts/issues/1407))
+- test-orka-macos11-x64-2 has low disk space ([#1406](https://github.com/nodejs/jenkins-alerts/issues/1406))
+- test-orka-macos11-x64-1 has low disk space ([#1405](https://github.com/nodejs/jenkins-alerts/issues/1405))
+- test-orka-macos11-x64-2 has low disk space ([#1404](https://github.com/nodejs/jenkins-alerts/issues/1404))
+- test-nearform-macos10.15-x64-1 has low disk space ([#1403](https://github.com/nodejs/jenkins-alerts/issues/1403))
+- test-orka-macos11-x64-2 has low disk space ([#1402](https://github.com/nodejs/jenkins-alerts/issues/1402))
+- test-orka-macos11-x64-1 has low disk space ([#1401](https://github.com/nodejs/jenkins-alerts/issues/1401))
+- test-orka-macos11-x64-2 has low disk space ([#1400](https://github.com/nodejs/jenkins-alerts/issues/1400))
+- test-orka-macos11-x64-1 has low disk space ([#1399](https://github.com/nodejs/jenkins-alerts/issues/1399))
+- test-orka-macos11-x64-2 has low disk space ([#1398](https://github.com/nodejs/jenkins-alerts/issues/1398))
+- test-orka-macos11-x64-1 has low disk space ([#1397](https://github.com/nodejs/jenkins-alerts/issues/1397))
+- test-orka-macos11-x64-2 has low disk space ([#1396](https://github.com/nodejs/jenkins-alerts/issues/1396))
 
 ### node
 
-#### Open Issues
+#### Merged Pull Requests
 
-- Insufficient server resources prompt "caniuse-lite is outdated." ([#52245](https://github.com/nodejs/node/issues/52245))
-- 18.19 -> 18.20 update changed output of Date().toLocaleString('nl'); ([#52244](https://github.com/nodejs/node/issues/52244))
-- schedulers not working after certain point of time ([#52243](https://github.com/nodejs/node/issues/52243))
-- Node.js is showing error "node: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by node)" ([#52241](https://github.com/nodejs/node/issues/52241))
-- Please stop using v8::BackingStore::Reallocate ([#52234](https://github.com/nodejs/node/issues/52234))
-- Support starting benchmark tasks using taskset on Linux ([#52233](https://github.com/nodejs/node/issues/52233))
-- Node does not correctly output UTF-8 characters on Git Bash on Windows ([#52232](https://github.com/nodejs/node/issues/52232))
-- Unable to extract node-v20.11.1-win-arm64.7z file. ([#52231](https://github.com/nodejs/node/issues/52231))
-- node 18.20.0 build failure ([#52230](https://github.com/nodejs/node/issues/52230))
-- node-addon-api addons broken by default on Node.js 20.12+ ([#52229](https://github.com/nodejs/node/issues/52229))
-- Significant memory usage increase starting from 20.10.0 for a simple HTTP server (potentially stream related) ([#52228](https://github.com/nodejs/node/issues/52228))
-- SIGSEGV when devtools tries to stop at a breakpoint ([#52226](https://github.com/nodejs/node/issues/52226))
-- Building 20.12.0 with old GLIBC: `sys/random.h: No such file or directory` ([#52223](https://github.com/nodejs/node/issues/52223))
-
-#### Open Pull Requests
-
-- module: improve detection try catch ([#52242](https://github.com/nodejs/node/pull/52242))
-- test_runner: run afterEach hooks in correct order ([#52239](https://github.com/nodejs/node/pull/52239))
-- benchmark: add toNamespacedPath bench ([#52236](https://github.com/nodejs/node/pull/52236))
-- deps: update undici to 6.10.2 ([#52227](https://github.com/nodejs/node/pull/52227))
-- lib: .load .save add proper error message when no file passed ([#52225](https://github.com/nodejs/node/pull/52225))
-- test_runner: omit filtered test from output ([#52221](https://github.com/nodejs/node/pull/52221))
-
-#### Open Discussions
-
-- Debugging a timeout leak ([#52238](https://github.com/orgs/nodejs/discussions/52238))
-- Backporting 18.19.1 security fixes to 18.18.x ([#52237](https://github.com/orgs/nodejs/discussions/52237))
-- Build v16.20.1 failed on macOS ([#52235](https://github.com/orgs/nodejs/discussions/52235))
-- In node v18 and above, server is getting closed quickly without honoring the keep-alive timeouts ([#52224](https://github.com/orgs/nodejs/discussions/52224))
-- Discord Server ([#52220](https://github.com/orgs/nodejs/discussions/52220))
-- Any Plans to Bring Node v21 Fetch to Node v20 or v18? ([#52210](https://github.com/orgs/nodejs/discussions/52210))
-- Use v8 in addon with node-addon-api? ([#52202](https://github.com/orgs/nodejs/discussions/52202))
-- SEA: how package node_module into single-executable-applications? ([#52194](https://github.com/orgs/nodejs/discussions/52194))
-- Node 18 using npm v10.5.0 or above ([#52106](https://github.com/orgs/nodejs/discussions/52106))
-- Handling Production Errors in Node.js: Best Practices and Tools ([#50484](https://github.com/orgs/nodejs/discussions/50484))
-- How to set npmrc variables via ./configure? ([#40759](https://github.com/orgs/nodejs/discussions/40759))
+- v20.12.0 proposal ([#52212](https://github.com/nodejs/node/pull/52212))
+- doc: move TSC members from regular to emeritus ([#52209](https://github.com/nodejs/node/pull/52209))
 
 #### Closed Issues
 
-- The latest minor version update broke ffi-napi compatibility ([#52240](https://github.com/nodejs/node/issues/52240))
+- Insufficient server resources prompt "caniuse-lite is outdated." ([#52245](https://github.com/nodejs/node/issues/52245))
+- schedulers not working after certain point of time ([#52243](https://github.com/nodejs/node/issues/52243))
 
 #### Closed Pull Requests
 
-- test,crypto: update WebCryptoAPI WPT ([#52222](https://github.com/nodejs/node/pull/52222))
+- doc: add ccache suport 4 windows ([#52254](https://github.com/nodejs/node/pull/52254))
+- Update README.md ([#52247](https://github.com/nodejs/node/pull/52247))
 
 ### nodejs.org
 
-#### Open Issues
-
-- Improve Search Results for Docs ([#6577](https://github.com/nodejs/nodejs.org/issues/6577))
-- Add author image to blog posts ([#6573](https://github.com/nodejs/nodejs.org/issues/6573))
-- SEO(`download`): Crawling and indexing ([#6566](https://github.com/nodejs/nodejs.org/issues/6566))
-- Language En To Bn Converting ([#6561](https://github.com/nodejs/nodejs.org/issues/6561))
-- Strange behavior of drop-down menu on download page ([#6560](https://github.com/nodejs/nodejs.org/issues/6560))
-- RSS alternate link tag does not expose release/vuln feeds ([#6559](https://github.com/nodejs/nodejs.org/issues/6559))
-- Add internationalization for Urdu speakers (/ur) ([#6555](https://github.com/nodejs/nodejs.org/issues/6555))
-
-#### Open Pull Requests
-
-- Add missing os from website redesign ([#6575](https://github.com/nodejs/nodejs.org/pull/6575))
-- Added Hindi language ([#6572](https://github.com/nodejs/nodejs.org/pull/6572))
-- fix: Made RouterSelect inline (#6560) ([#6568](https://github.com/nodejs/nodejs.org/pull/6568))
-- fix: Changelog trigger and minor visual bugs ([#6567](https://github.com/nodejs/nodejs.org/pull/6567))
-- [chore 🐱‍🏍] Added Bengali language config #6561 ([#6564](https://github.com/nodejs/nodejs.org/pull/6564))
-- chore: add Uzbek lang to locales ([#6563](https://github.com/nodejs/nodejs.org/pull/6563))
-- fix: RSS alternate link tag does not expose release/vuln feeds ([#6562](https://github.com/nodejs/nodejs.org/pull/6562))
-- added Urdu language config ([#6556](https://github.com/nodejs/nodejs.org/pull/6556))
-
 #### Merged Pull Requests
 
+- blog: add banner for April security release ([#6578](https://github.com/nodejs/nodejs.org/pull/6578))
 - blog: add april sec release announcement ([#6574](https://github.com/nodejs/nodejs.org/pull/6574))
+- fix: Changelog trigger and minor visual bugs ([#6567](https://github.com/nodejs/nodejs.org/pull/6567))
+- fix: RSS alternate link tag does not expose release/vuln feeds ([#6562](https://github.com/nodejs/nodejs.org/pull/6562))
 - Blog: v20.12.0 release post ([#6558](https://github.com/nodejs/nodejs.org/pull/6558))
 - Blog: v18.20.0 release post ([#6557](https://github.com/nodejs/nodejs.org/pull/6557))
 - feat(search): Enhance shortcut key transition for OS detection ([#6554](https://github.com/nodejs/nodejs.org/pull/6554))
+- meta: bump express from 4.18.3 to 4.19.2 ([#6550](https://github.com/nodejs/nodejs.org/pull/6550))
+- Chore: add searchbar shortcut indicator ([#6548](https://github.com/nodejs/nodejs.org/pull/6548))
+- Fixes search page with no query should not throw ([#6547](https://github.com/nodejs/nodejs.org/pull/6547))
+- fix(og): use the resolved page title ([#6545](https://github.com/nodejs/nodejs.org/pull/6545))
+- style: fix typo in comment: "to to" -> "to" for clarity. ([#6542](https://github.com/nodejs/nodejs.org/pull/6542))
 
 #### Closed Issues
 
 - Confusing Error Message ([#6576](https://github.com/nodejs/nodejs.org/issues/6576))
 - Enable Hindi Language Support ([#6570](https://github.com/nodejs/nodejs.org/issues/6570))
+- SEO(`download`): Crawling and indexing ([#6566](https://github.com/nodejs/nodejs.org/issues/6566))
+- RSS alternate link tag does not expose release/vuln feeds ([#6559](https://github.com/nodejs/nodejs.org/issues/6559))
+- nodejs.org's i18n is not working ([#6553](https://github.com/nodejs/nodejs.org/issues/6553))
+- Missing page ([#6549](https://github.com/nodejs/nodejs.org/issues/6549))
 
 #### Closed Pull Requests
 
@@ -120,69 +96,28 @@
 
 - npm ERR! gyp: Undefined variable android_ndk_path in binding.gyp while trying to load binding.gyp ([#237](https://github.com/nodejs/gyp-next/issues/237))
 
-### performance
-
-#### Open Issues
-
-- Node.js  Performance Team Meeting 2024-04-01 ([#155](https://github.com/nodejs/performance/issues/155))
-
 ### security-wg
-
-#### Open Issues
-
-- OpenSSF Scorecard Report Updated! ([#1266](https://github.com/nodejs/security-wg/issues/1266))
-- Discuss adding --security-revert to NODE_OPTIONS ([#1262](https://github.com/nodejs/security-wg/issues/1262))
-
-#### Open Pull Requests
-
-- OpenSSF Scorecard Report Updated ([#1267](https://github.com/nodejs/security-wg/pull/1267))
 
 #### Merged Pull Requests
 
+- chore: add minutes doc for 2024-03-28 meeting ([#1268](https://github.com/nodejs/security-wg/pull/1268))
 - build(deps): bump actions/dependency-review-action from 4.2.4 to 4.2.5 ([#1263](https://github.com/nodejs/security-wg/pull/1263))
+- build(deps): bump actions/dependency-review-action from 4.2.3 to 4.2.4 ([#1261](https://github.com/nodejs/security-wg/pull/1261))
 
 #### Closed Issues
 
 - OpenSSF Scorecard Report Updated! ([#1264](https://github.com/nodejs/security-wg/issues/1264))
+- Node.js  Security team Meeting 2024-03-28 ([#1260](https://github.com/nodejs/security-wg/issues/1260))
 
 #### Closed Pull Requests
 
 - OpenSSF Scorecard Report Updated ([#1265](https://github.com/nodejs/security-wg/pull/1265))
 
-### undici
-
-#### Open Issues
-
-- Wrong information in docs README file ([#3004](https://github.com/nodejs/undici/issues/3004))
-- Undici cannot be required in --without-intl Node.js ([#3002](https://github.com/nodejs/undici/issues/3002))
-- Link to Contributing guide from the README ([#3000](https://github.com/nodejs/undici/issues/3000))
-- BodyTimeoutError: Body Timeout Error | Closing process ([#2997](https://github.com/nodejs/undici/issues/2997))
-
-#### Open Pull Requests
-
-- fallback to Buffer.isUtf8 on platforms without icu ([#3006](https://github.com/nodejs/undici/pull/3006))
-- enhancement: link to the contributing guide from the README ([#3003](https://github.com/nodejs/undici/pull/3003))
-
-#### Open Discussions
-
-- Utilize `throwOnError` option in `onError` ([#2996](https://github.com/nodejs/undici/discussions/2996))
-- Executing `retry` bound to `RetryHandler` instance instead of `retryOpts` ([#2973](https://github.com/nodejs/undici/discussions/2973))
-- Undici.eventSource ([#2976](https://github.com/nodejs/undici/discussions/2976))
-- Could it be a problem to use a fetch? ([#2979](https://github.com/nodejs/undici/discussions/2979))
-- How does RetryAgent work? ([#2945](https://github.com/nodejs/undici/discussions/2945))
-- Having issues with retry interceptor ([#2963](https://github.com/nodejs/undici/discussions/2963))
-
-#### Merged Pull Requests
-
-- fix(#2364): concurrent aborts ([#3005](https://github.com/nodejs/undici/pull/3005))
-- test: remove only ([#3001](https://github.com/nodejs/undici/pull/3001))
-- Revert "perf: reuse TextDecoder instance (#2863)" ([#2999](https://github.com/nodejs/undici/pull/2999))
-- fix error message ([#2998](https://github.com/nodejs/undici/pull/2998))
-
 ### docker-node
 
 #### Merged Pull Requests
 
+- doc: add release key for marco-ippolito ([#2055](https://github.com/nodejs/docker-node/pull/2055))
 - chore(deps): bump tj-actions/changed-files from 43 to 44 ([#2052](https://github.com/nodejs/docker-node/pull/2052))
 - feat: Node.js 18.20.0, 20.12.0 ([#2050](https://github.com/nodejs/docker-node/pull/2050))
 
@@ -194,48 +129,69 @@
 
 - doc: clarify SECURITY repsonsibility ([#2053](https://github.com/nodejs/docker-node/pull/2053))
 
-### help
+### undici
 
 #### Open Issues
 
-- setImmediate() ,process.nextTick() understanding ([#4366](https://github.com/nodejs/help/issues/4366))
+- BodyTimeoutError: Body Timeout Error | Closing process ([#2997](https://github.com/nodejs/undici/issues/2997))
 
-### unofficial-builds
+#### Open Discussions
 
-#### Open Issues
-
-- Build v20.12.0 missing/failed ([#126](https://github.com/nodejs/unofficial-builds/issues/126))
-
-### build
-
-#### Open Pull Requests
-
-- ansible: install perf matching the kernel version ([#3665](https://github.com/nodejs/build/pull/3665))
-- Hetzner-role-updates ([#3664](https://github.com/nodejs/build/pull/3664))
-- ansible: add test-ibm-rhel9-x64-1 ([#3663](https://github.com/nodejs/build/pull/3663))
+- Executing `retry` bound to `RetryHandler` instance instead of `retryOpts` ([#2973](https://github.com/nodejs/undici/discussions/2973))
 
 #### Merged Pull Requests
 
-- ansible: migrate release-ibm-rhel8-x64-2 ([#3662](https://github.com/nodejs/build/pull/3662))
+- fix(workflows): missing top-level content.read permissions ([#3013](https://github.com/nodejs/undici/pull/3013))
+- fix: node:util instead of util ([#3007](https://github.com/nodejs/undici/pull/3007))
+- Revert "perf: reuse TextDecoder instance (#2863)" ([#2999](https://github.com/nodejs/undici/pull/2999))
+- chore: validate responses can be consumed without a Content-Length or… ([#2995](https://github.com/nodejs/undici/pull/2995))
+- feat:  added search input ([#2993](https://github.com/nodejs/undici/pull/2993))
+- fix(#2986): bad start check ([#2992](https://github.com/nodejs/undici/pull/2992))
+
+### corepack
+
+#### Open Issues
+
+- How to debug `pnpm` inside corepack? ([#440](https://github.com/nodejs/corepack/issues/440))
+
+#### Closed Pull Requests
+
+- chore: use `pipeline` from `node:stream/promises` ([#441](https://github.com/nodejs/corepack/pull/441))
+
+### uvwasi
+
+#### Closed Issues
+
+- Node.js  uvwasi team Meeting 2024-03-27 ([#252](https://github.com/nodejs/uvwasi/issues/252))
+
+### node-gyp
+
+#### Closed Issues
+
+- M2 yarn install failed? ([#3002](https://github.com/nodejs/node-gyp/issues/3002))
 
 ### node-core-utils
 
-#### Open Pull Requests
-
-- fix: adjust pre-sec-release template lint ([#792](https://github.com/nodejs/node-core-utils/pull/792))
-- feat: prompt dependency updates url in vulnerabilities.json creation ([#788](https://github.com/nodejs/node-core-utils/pull/788))
-
 #### Merged Pull Requests
 
+- fix: add team mention when notifying ([#793](https://github.com/nodejs/node-core-utils/pull/793))
+- fix: adjust pre-sec-release template lint ([#792](https://github.com/nodejs/node-core-utils/pull/792))
 - lib: remove double space on title ([#791](https://github.com/nodejs/node-core-utils/pull/791))
 - fix: pre-release crashing on missing vulnerability rating ([#790](https://github.com/nodejs/node-core-utils/pull/790))
 - doc: mention git node security ([#789](https://github.com/nodejs/node-core-utils/pull/789))
+- feat: fetch template directly from nodejs/node ([#787](https://github.com/nodejs/node-core-utils/pull/787))
+- feat: automate announcements for pre release ([#786](https://github.com/nodejs/node-core-utils/pull/786))
 
-### release-cloudflare-worker
+### build
 
 #### Merged Pull Requests
 
-- chore: update copyright to include contributors ([#107](https://github.com/nodejs/release-cloudflare-worker/pull/107))
+- Hetzner-role-updates ([#3664](https://github.com/nodejs/build/pull/3664))
+- ansible: migrate release-ibm-rhel8-x64-2 ([#3662](https://github.com/nodejs/build/pull/3662))
+
+#### Closed Pull Requests
+
+- Add Hetzner benchmark machines to the ansible inventory. ([#3661](https://github.com/nodejs/build/pull/3661))
 
 ### email
 
@@ -243,46 +199,39 @@
 
 - Add joyee to zoom message list ([#242](https://github.com/nodejs/email/pull/242))
 
-### TSC
-
-#### Open Pull Requests
-
-- Add vote lifecycle workflows and scripts ([#1522](https://github.com/nodejs/TSC/pull/1522))
-
 ### create-node-meeting-artifacts
 
 #### Merged Pull Requests
 
 - Update invited_tsc ([#153](https://github.com/nodejs/create-node-meeting-artifacts/pull/153))
 
-### llhttp
+### require-in-the-middle
 
-#### Open Pull Requests
+#### Merged Pull Requests
 
-- build(deps): bump actions/setup-python from 5.0.0 to 5.1.0 ([#342](https://github.com/nodejs/llhttp/pull/342))
+- v7.3.0 ([#87](https://github.com/nodejs/require-in-the-middle/pull/87))
+
+### github-bot
+
+#### Merged Pull Requests
+
+- build(deps): bump express from 4.18.3 to 4.19.1 ([#502](https://github.com/nodejs/github-bot/pull/502))
 
 ### node-addon-examples
 
-#### Open Pull Requests
+#### Closed Pull Requests
 
-- Bump actions/dependency-review-action from 3.0.6 to 4.2.5 ([#448](https://github.com/nodejs/node-addon-examples/pull/448))
+- Bump actions/dependency-review-action from 3.0.6 to 4.2.4 ([#446](https://github.com/nodejs/node-addon-examples/pull/446))
+
+### meeting-picker
+
+#### Merged Pull Requests
+
+- chore(deps-dev): bump @types/node from 20.11.28 to 20.11.30 ([#95](https://github.com/nodejs/meeting-picker/pull/95))
+- chore(deps-dev): bump typescript from 5.4.2 to 5.4.3 ([#94](https://github.com/nodejs/meeting-picker/pull/94))
 
 ### node-addon-api
 
-#### Open Pull Requests
+#### Closed Pull Requests
 
-- build(deps): bump actions/setup-python from 5.0.0 to 5.1.0 ([#1471](https://github.com/nodejs/node-addon-api/pull/1471))
-- build(deps): bump codecov/codecov-action from 4.1.0 to 4.1.1 ([#1470](https://github.com/nodejs/node-addon-api/pull/1470))
-- build(deps): bump actions/dependency-review-action from 4.2.3 to 4.2.5 ([#1469](https://github.com/nodejs/node-addon-api/pull/1469))
-
-### corepack
-
-#### Open Pull Requests
-
-- chore(main): release 0.26.1 ([#442](https://github.com/nodejs/corepack/pull/442))
-
-### Release
-
-#### Open Discussions
-
-- 18.19.1? ([#994](https://github.com/nodejs/Release/discussions/994))
+- build(deps): bump actions/dependency-review-action from 4.2.3 to 4.2.4 ([#1468](https://github.com/nodejs/node-addon-api/pull/1468))
