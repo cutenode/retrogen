@@ -1,7 +1,9 @@
-require('dotenv').config()
+const { loadEnvFile } = require('node:process');
 let { graphql } = require('@octokit/graphql')
 const query = require('./queries/query')
 const returnUsable = require('./util/returnUsable')
+
+loadEnvFile()
 
 graphql = graphql.defaults({
   headers: {
