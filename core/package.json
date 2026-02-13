@@ -25,7 +25,6 @@
     "standard": "^16.0.4"
   },
   "dependencies": {
-    "dotenv": "^16.0.0",
     "@octokit/rest": "^18.12.0",
     "luxon": "^2.3.1"
   },

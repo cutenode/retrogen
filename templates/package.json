@@ -23,7 +23,6 @@
   "license": "MIT",
   "devDependencies": {
     "@retrogen/core": "^0.0.2",
-    "dotenv": "^16.4.5",
     "luxon": "^3.4.4"
   },
   "repository": {
