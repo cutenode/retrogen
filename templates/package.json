@@ -7,7 +7,7 @@
     "lint": "standard",
     "lint:fix": "standard --fix",
     "test": "node --test",
-    "coverage": "nyc mocha",
+    "coverage": "nyc node --test",
     "examples": "npm run examples:default && npm run examples:usingCore",
     "examples:output": "npm run examples:default:output && npm run examples:usingCore:output",
     "examples:default": "node examples/default.js",

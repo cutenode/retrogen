@@ -6,8 +6,8 @@
   "scripts": {
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "test": "mocha",
-    "coverage": "nyc mocha",
+    "test": "node --test",
+    "coverage": "nyc node --test",
     "examples": "npm run examples:default && npm run examples:dynamicDates",
     "examples:output": "npm run examples:default:output && npm run examples:dynamicDates:output",
     "examples:default": "node examples/default.js",
@@ -25,7 +25,6 @@
   "devDependencies": {
     "dotenv": "^16.0.0",
     "luxon": "^2.3.1",
-    "mocha": "^9.2.2",
     "nyc": "^15.1.0",
     "standard": "^16.0.4"
   },
