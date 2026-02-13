@@ -1,115 +1,10 @@
 {
-  "scoop-twilio-cli": {
-    "open": [
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#180](https://github.com/twilio/scoop-twilio-cli/issues/180))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#181](https://github.com/twilio/scoop-twilio-cli/issues/181))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#182](https://github.com/twilio/scoop-twilio-cli/issues/182))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#179](https://github.com/twilio/scoop-twilio-cli/issues/179))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#183](https://github.com/twilio/scoop-twilio-cli/issues/183))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#184](https://github.com/twilio/scoop-twilio-cli/issues/184))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#176](https://github.com/twilio/scoop-twilio-cli/issues/176))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#177](https://github.com/twilio/scoop-twilio-cli/issues/177))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#178](https://github.com/twilio/scoop-twilio-cli/issues/178))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#169](https://github.com/twilio/scoop-twilio-cli/issues/169))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#170](https://github.com/twilio/scoop-twilio-cli/issues/170))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#173](https://github.com/twilio/scoop-twilio-cli/issues/173))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#172](https://github.com/twilio/scoop-twilio-cli/issues/172))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#175](https://github.com/twilio/scoop-twilio-cli/issues/175))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#174](https://github.com/twilio/scoop-twilio-cli/issues/174))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#171](https://github.com/twilio/scoop-twilio-cli/issues/171))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#165](https://github.com/twilio/scoop-twilio-cli/issues/165))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#166](https://github.com/twilio/scoop-twilio-cli/issues/166))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#168](https://github.com/twilio/scoop-twilio-cli/issues/168))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#167](https://github.com/twilio/scoop-twilio-cli/issues/167))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- twilio@5.19.1: decompress error ([#163](https://github.com/twilio/scoop-twilio-cli/issues/163))",
-        "type": "Issue"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  },
-  "twilio-java": {
-    "open": [
-      {
-        "bullet": "- test issue for slack integration ([#787](https://github.com/twilio/twilio-java/issues/787))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- feat: added support for fetching access token from oauth server ([#786](https://github.com/twilio/twilio-java/pull/786))",
-        "type": "PullRequest"
-      }
-    ],
-    "merged": [],
-    "closed": [
-      {
-        "bullet": "- feat: added support for fetching access token from oauth server ([#785](https://github.com/twilio/twilio-java/pull/785))",
-        "type": "PullRequest"
-      }
-    ]
-  },
   "twilio-voice-react-native-app": {
     "open": [
+      {
+        "bullet": "- I want to develop an app for person with speech disability. TTS is key. So during a call, he would send texts and other recipient will receive audio. ([#145](https://github.com/twilio/twilio-voice-react-native-app/issues/145))",
+        "type": "Issue"
+      },
       {
         "bullet": "- Update example.env ([#144](https://github.com/twilio/twilio-voice-react-native-app/pull/144))",
         "type": "PullRequest"
@@ -128,24 +23,35 @@
       }
     ]
   },
-  "twilio-voice-react-native": {
-    "open": [
+  "scoop-twilio-cli": {
+    "open": [],
+    "merged": [],
+    "closed": [
       {
-        "bullet": "- Version 1.0.0 Error: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord targetSDK=34 requires permissions ([#349](https://github.com/twilio/twilio-voice-react-native/issues/349))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Unable to use package: JSEventEmitter error ([#348](https://github.com/twilio/twilio-voice-react-native/issues/348))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- Incoming  CallInvite is not working in Android ([#329](https://github.com/twilio/twilio-voice-react-native/issues/329))",
+        "bullet": "- twilio@5.19.1: decompress error ([#164](https://github.com/twilio/scoop-twilio-cli/issues/164))",
         "type": "Issue"
       }
-    ],
+    ]
+  },
+  "voice-quickstart-android": {
+    "open": [],
+    "merged": [],
+    "closed": [
+      {
+        "bullet": "- Incoming call not notification on android not working ([#589](https://github.com/twilio/voice-quickstart-android/issues/589))",
+        "type": "Issue"
+      }
+    ]
+  },
+  "twilio-voice-react-native": {
+    "open": [],
     "merged": [
       {
         "bullet": "- docs: remove beta tag from readme ([#347](https://github.com/twilio/twilio-voice-react-native/pull/347))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- [VBLOCKS-2830] Remove custom twiml parameter displayName functionality ([#339](https://github.com/twilio/twilio-voice-react-native/pull/339))",
         "type": "PullRequest"
       }
     ],
@@ -167,69 +73,8 @@
   "twilio-taskrouter.js": {
     "open": [
       {
-        "bullet": "- Angular v17: Uncaught ReferenceError: process is not defined ([#121](https://github.com/twilio/twilio-taskrouter.js/issues/121))",
-        "type": "Issue"
-      },
-      {
         "bullet": "- Chrome Extension Manifest V3 Support  ([#118](https://github.com/twilio/twilio-taskrouter.js/issues/118))",
         "type": "Issue"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  },
-  "voice-quickstart-android": {
-    "open": [],
-    "merged": [
-      {
-        "bullet": "- VBLOCKS-2960: circle-ci image upgrade ([#591](https://github.com/twilio/voice-quickstart-android/pull/591))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- VBLOCKS-2892: updated agp version ([#590](https://github.com/twilio/voice-quickstart-android/pull/590))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- Incoming call not notification on android not working ([#589](https://github.com/twilio/voice-quickstart-android/issues/589))",
-        "type": "Issue"
-      }
-    ]
-  },
-  "twilio-voice-ios": {
-    "open": [
-      {
-        "bullet": "- Privacy Manifest (PrivacyInfo.xcprivacy) is invalid in 6.10.2 ([#125](https://github.com/twilio/twilio-voice-ios/issues/125))",
-        "type": "Issue"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  },
-  "twilio-video-ios": {
-    "open": [
-      {
-        "bullet": "- Privacy Manifest ([#268](https://github.com/twilio/twilio-video-ios/issues/268))",
-        "type": "Issue"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  },
-  "twilio-python": {
-    "open": [
-      {
-        "bullet": "- 8.11.1: pytest fails ([#750](https://github.com/twilio/twilio-python/issues/750))",
-        "type": "Issue"
-      },
-      {
-        "bullet": "- chore: use new unittest.mock from standard library ([#782](https://github.com/twilio/twilio-python/pull/782))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- drop python<=3.7 support ([#781](https://github.com/twilio/twilio-python/pull/781))",
-        "type": "PullRequest"
       }
     ],
     "merged": [],
@@ -254,20 +99,6 @@
     ],
     "closed": []
   },
-  "flex-plugin-builder": {
-    "open": [
-      {
-        "bullet": "- FLEXY-4863 Snyk package updates ([#970](https://github.com/twilio/flex-plugin-builder/pull/970))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Fix for include-remote flag ([#969](https://github.com/twilio/flex-plugin-builder/pull/969))",
-        "type": "PullRequest"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  },
   "flex-ui-sample": {
     "open": [
       {
@@ -282,25 +113,15 @@
     "merged": [],
     "closed": []
   },
-  "twilio-verify-passkeys": {
-    "open": [
+  "twilio-java": {
+    "open": [],
+    "merged": [],
+    "closed": [
       {
-        "bullet": "- [ACCSEC-33579] - Run end to end test pipeline for iOS. ([#20](https://github.com/twilio/twilio-verify-passkeys/pull/20))",
+        "bullet": "- feat: added support for fetching access token from oauth server ([#785](https://github.com/twilio/twilio-java/pull/785))",
         "type": "PullRequest"
       }
-    ],
-    "merged": [],
-    "closed": []
-  },
-  "twilio-video-processors.js": {
-    "open": [
-      {
-        "bullet": "- [Snyk] Security upgrade express from 4.17.1 to 4.19.2 ([#75](https://github.com/twilio/twilio-video-processors.js/pull/75))",
-        "type": "PullRequest"
-      }
-    ],
-    "merged": [],
-    "closed": []
+    ]
   },
   "twilio-ruby": {
     "open": [],
@@ -321,12 +142,7 @@
     "closed": []
   },
   "audioswitch": {
-    "open": [
-      {
-        "bullet": "- VBLOCKS-2801 bluetooth listener ([#159](https://github.com/twilio/audioswitch/pull/159))",
-        "type": "PullRequest"
-      }
-    ],
+    "open": [],
     "merged": [
       {
         "bullet": "- VBLOCKS-2909: upgraded audioswitch ([#160](https://github.com/twilio/audioswitch/pull/160))",
@@ -356,20 +172,7 @@
     "closed": []
   },
   "wireless-security-camera": {
-    "open": [
-      {
-        "bullet": "- [Snyk] Fix for 2 vulnerabilities ([#102](https://github.com/twilio/wireless-security-camera/pull/102))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- [Snyk] Security upgrade opencv from 6.2.0 to 7.0.0 ([#101](https://github.com/twilio/wireless-security-camera/pull/101))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- [Snyk] Fix for 2 vulnerabilities ([#100](https://github.com/twilio/wireless-security-camera/pull/100))",
-        "type": "PullRequest"
-      }
-    ],
+    "open": [],
     "merged": [],
     "closed": []
   },
@@ -383,30 +186,6 @@
     ],
     "closed": []
   },
-  "twilio-oai-generator": {
-    "open": [
-      {
-        "bullet": "- fix: added server from path in openAPI to set baseurl correctly in go ([#568](https://github.com/twilio/twilio-oai-generator/pull/568))",
-        "type": "PullRequest"
-      }
-    ],
-    "merged": [
-      {
-        "bullet": "- fix: python support for multiple query and header params ([#566](https://github.com/twilio/twilio-oai-generator/pull/566))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- feat: support json body in php ([#553](https://github.com/twilio/twilio-oai-generator/pull/553))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": [
-      {
-        "bullet": "- chore: uncommenting tests ([#567](https://github.com/twilio/twilio-oai-generator/pull/567))",
-        "type": "PullRequest"
-      }
-    ]
-  },
   "flex-plugin-ts": {
     "open": [
       {
@@ -418,55 +197,12 @@
     "closed": []
   },
   "wireless-fleet-tracker": {
-    "open": [
-      {
-        "bullet": "- [Snyk] Fix for 2 vulnerabilities ([#94](https://github.com/twilio/wireless-fleet-tracker/pull/94))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- [Snyk] Fix for 3 vulnerabilities ([#93](https://github.com/twilio/wireless-fleet-tracker/pull/93))",
-        "type": "PullRequest"
-      }
-    ],
+    "open": [],
     "merged": [],
     "closed": []
-  },
-  "flex-plugin-library-agent-automation": {
-    "open": [
-      {
-        "bullet": "- [Snyk] Security upgrade @twilio/flex-plugin-scripts from 6.0.3 to 6.2.0 ([#25](https://github.com/twilio/flex-plugin-library-agent-automation/pull/25))",
-        "type": "PullRequest"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  },
-  "twilio-verify-sna-android": {
-    "open": [
-      {
-        "bullet": "- Support HTTP 1.1 and change request to GET ([#20](https://github.com/twilio/twilio-verify-sna-android/pull/20))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- Retry for edge cases and improve logging ([#18](https://github.com/twilio/twilio-verify-sna-android/pull/18))",
-        "type": "PullRequest"
-      }
-    ],
-    "merged": [],
-    "closed": [
-      {
-        "bullet": "- Use okhttp ([#19](https://github.com/twilio/twilio-verify-sna-android/pull/19))",
-        "type": "PullRequest"
-      }
-    ]
   },
   "wireless-industrial-sensor": {
-    "open": [
-      {
-        "bullet": "- [Snyk] Fix for 2 vulnerabilities ([#82](https://github.com/twilio/wireless-industrial-sensor/pull/82))",
-        "type": "PullRequest"
-      }
-    ],
+    "open": [],
     "merged": [],
     "closed": []
   },
@@ -494,6 +230,16 @@
     "merged": [],
     "closed": []
   },
+  "twilio-verify-sna-android": {
+    "open": [],
+    "merged": [],
+    "closed": [
+      {
+        "bullet": "- Use okhttp ([#19](https://github.com/twilio/twilio-verify-sna-android/pull/19))",
+        "type": "PullRequest"
+      }
+    ]
+  },
   "signal-2019-flex-notes": {
     "open": [
       {
@@ -502,40 +248,6 @@
       }
     ],
     "merged": [],
-    "closed": []
-  },
-  "twilio-php": {
-    "open": [
-      {
-        "bullet": "- chore: test php 8.3 ([#800](https://github.com/twilio/twilio-php/pull/800))",
-        "type": "PullRequest"
-      }
-    ],
-    "merged": [
-      {
-        "bullet": "- chore: provide application/json support in request body ([#799](https://github.com/twilio/twilio-php/pull/799))",
-        "type": "PullRequest"
-      }
-    ],
-    "closed": []
-  },
-  "twilio-webchat-react-app": {
-    "open": [
-      {
-        "bullet": "- FLEXIN-786: Passing Stored Identity to Init API ([#136](https://github.com/twilio/twilio-webchat-react-app/pull/136))",
-        "type": "PullRequest"
-      },
-      {
-        "bullet": "- FLEXIN-737: Update logic for filename truncation ([#135](https://github.com/twilio/twilio-webchat-react-app/pull/135))",
-        "type": "PullRequest"
-      }
-    ],
-    "merged": [
-      {
-        "bullet": "- FLEXIN-805: Twilio Flex Plugin Library [Chat Transfer]: Agent identity is exposed on Webchat widget after the chat transfer ([#133](https://github.com/twilio/twilio-webchat-react-app/pull/133))",
-        "type": "PullRequest"
-      }
-    ],
     "closed": []
   },
   "hls-frontline-pharma": {
@@ -549,12 +261,7 @@
     "closed": []
   },
   "hls-patient-appointment-management": {
-    "open": [
-      {
-        "bullet": "- [Snyk] Security upgrade @twilio/runtime-handler from 1.2.3 to 2.0.0 ([#44](https://github.com/twilio/hls-patient-appointment-management/pull/44))",
-        "type": "PullRequest"
-      }
-    ],
+    "open": [],
     "merged": [],
     "closed": []
   },
@@ -568,42 +275,27 @@
     "merged": [],
     "closed": []
   },
-  "flex-plugin-library-schedule-manager": {
-    "open": [
-      {
-        "bullet": "- [Snyk] Security upgrade @twilio/runtime-handler from 1.2.3 to 2.0.0 ([#41](https://github.com/twilio/flex-plugin-library-schedule-manager/pull/41))",
-        "type": "PullRequest"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  },
   "hls-telehealth": {
-    "open": [
-      {
-        "bullet": "- [Snyk] Security upgrade @twilio/runtime-handler from 1.2.3 to 2.0.0 ([#82](https://github.com/twilio/hls-telehealth/pull/82))",
-        "type": "PullRequest"
-      }
-    ],
+    "open": [],
     "merged": [],
     "closed": []
   },
   "twilio-go": {
     "open": [
       {
-        "bullet": "- feat: added support for application/json content type in request body ([#239](https://github.com/twilio/twilio-go/pull/239))",
-        "type": "PullRequest"
-      },
-      {
         "bullet": "- Review query param changes ([#224](https://github.com/twilio/twilio-go/pull/224))",
         "type": "PullRequest"
       },
       {
-        "bullet": "- fix: corrected the syntax of all tts ssml tags ([#221](https://github.com/twilio/twilio-go/pull/221))",
+        "bullet": "- feat: (main)Add support for query parameters for all supported HTTP methods ([#215](https://github.com/twilio/twilio-go/pull/215))",
         "type": "PullRequest"
       },
       {
-        "bullet": "- feat: (main)Add support for query parameters for all supported HTTP methods ([#215](https://github.com/twilio/twilio-go/pull/215))",
+        "bullet": "- chore: regenerate SDK for generator changes to support making JSON POST requests ([#84](https://github.com/twilio/twilio-go/pull/84))",
+        "type": "PullRequest"
+      },
+      {
+        "bullet": "- feat: add the ability to post a JSON payload to the Twilio API's ([#83](https://github.com/twilio/twilio-go/pull/83))",
         "type": "PullRequest"
       }
     ],
@@ -615,38 +307,43 @@
     ],
     "closed": []
   },
-  "twilio-voice.js": {
-    "open": [
+  "twilio-oai-generator": {
+    "open": [],
+    "merged": [
       {
-        "bullet": "- [VBLOCKS-2739] fix: remove preflight info from invite pstream message ([#250](https://github.com/twilio/twilio-voice.js/pull/250))",
-        "type": "PullRequest"
-      }
-    ],
-    "merged": [],
-    "closed": []
-  },
-  "twilio-conversations-demo-react": {
-    "open": [
-      {
-        "bullet": "- feat: Update Paste library ([#154](https://github.com/twilio/twilio-conversations-demo-react/pull/154))",
+        "bullet": "- fix: python support for multiple query and header params ([#566](https://github.com/twilio/twilio-oai-generator/pull/566))",
         "type": "PullRequest"
       },
       {
-        "bullet": "- feat(Messages): Added a new contextual menu with Add Reactions, Edit and Delete options for Own Messages ([#151](https://github.com/twilio/twilio-conversations-demo-react/pull/151))",
+        "bullet": "- feat: support json body in php ([#553](https://github.com/twilio/twilio-oai-generator/pull/553))",
         "type": "PullRequest"
       }
     ],
-    "merged": [],
+    "closed": [
+      {
+        "bullet": "- chore: uncommenting tests ([#567](https://github.com/twilio/twilio-oai-generator/pull/567))",
+        "type": "PullRequest"
+      }
+    ]
+  },
+  "twilio-php": {
+    "open": [],
+    "merged": [
+      {
+        "bullet": "- chore: provide application/json support in request body ([#799](https://github.com/twilio/twilio-php/pull/799))",
+        "type": "PullRequest"
+      }
+    ],
     "closed": []
   },
-  "voice-quickstart-ios": {
-    "open": [
+  "twilio-webchat-react-app": {
+    "open": [],
+    "merged": [
       {
-        "bullet": "- Add support for multiple call handling ([#557](https://github.com/twilio/voice-quickstart-ios/pull/557))",
+        "bullet": "- FLEXIN-805: Twilio Flex Plugin Library [Chat Transfer]: Agent identity is exposed on Webchat widget after the chat transfer ([#133](https://github.com/twilio/twilio-webchat-react-app/pull/133))",
         "type": "PullRequest"
       }
     ],
-    "merged": [],
     "closed": []
   },
   "pear": {

@@ -1,297 +1,275 @@
 # Retrospective for `nodejs`
 
-Reporting on 33 Issues from 24 authors, 67 Pull Requests from 29 authors, and 6 Discussions from 6 authors.
+Reporting on 39 Issues from 20 authors, 61 Pull Requests from 39 authors, and 5 Discussions from 5 authors.
 
-
-### undici
-
-#### Open Issues
-
-- response.bodyUsed is undefined when body is null ([#1345](https://github.com/nodejs/undici/issues/1345))
-- [diagnostics_channel] support body received in `undici:request:trailers` ([#1342](https://github.com/nodejs/undici/issues/1342))
-
-#### Open Pull Requests
-
-- fix(fetch): do not set bodyUsed to undefined ([#1346](https://github.com/nodejs/undici/pull/1346))
-- feat(diagnostics_channel): add `bodyReceived` property to trailers ([#1344](https://github.com/nodejs/undici/pull/1344))
-
-#### Open Discussions
-
-- How to close the connection on some condition ([#1333](https://github.com/nodejs/undici/discussions/1333))
-
-#### Merged Pull Requests
-
-- fetch: remove unnecessary new URL calls ([#1343](https://github.com/nodejs/undici/pull/1343))
-- doc: fix documented mock request example ([#1341](https://github.com/nodejs/undici/pull/1341))
-- fix: jest bug when using MockScope.delay ([#1340](https://github.com/nodejs/undici/pull/1340))
-
-#### Closed Issues
-
-- Fetch returns body on null-body statuses ([#1339](https://github.com/nodejs/undici/issues/1339))
-
-### node
-
-#### Open Issues
-
-- Debugger's `list` command throws TypeError: Cannot read properties of null (reading 'list') ([#42775](https://github.com/nodejs/node/issues/42775))
-- TypeError when `console.log` a static property `name` in class ([#42773](https://github.com/nodejs/node/issues/42773))
-- Terminal colors built-in to Node ([#42770](https://github.com/nodejs/node/issues/42770))
-- test binarytrees working with only one thread ([#42774](https://github.com/nodejs/node/issues/42774))
-- performance.timerify(fn) behave inconsistently for sync/async functions ([#42743](https://github.com/nodejs/node/issues/42743))
-- performance.timerify(fn, options) always return the same timerifed function ([#42742](https://github.com/nodejs/node/issues/42742))
-- Investigate flaky test-http-server-request-timeout-keepalive ([#42741](https://github.com/nodejs/node/issues/42741))
-
-#### Open Pull Requests
-
-- lib,src,v8: testing serializer changes ([#42777](https://github.com/nodejs/node/pull/42777))
-- debugger: fix TypeError of list command in inspector repl ([#42776](https://github.com/nodejs/node/pull/42776))
-- fs: harden `fs.read(object)` and `filehandle.read(object)` typecheck ([#42772](https://github.com/nodejs/node/pull/42772))
-- test: improve lib/internal/source_map/source_map.js coverage ([#42771](https://github.com/nodejs/node/pull/42771))
-- meta: move one or more collaborators to emeritus ([#42769](https://github.com/nodejs/node/pull/42769))
-- fs: add read(buffer[, options]) versions ([#42768](https://github.com/nodejs/node/pull/42768))
-- doc: add missing `rename` event in fs.FSWatcher ([#42767](https://github.com/nodejs/node/pull/42767))
-- src,crypto: remove uses of `AllocatedBuffer` from `crypto_ec.cc` ([#42766](https://github.com/nodejs/node/pull/42766))
-- build: improve the `format-cpp` error message ([#42765](https://github.com/nodejs/node/pull/42765))
-- build: fix format-cpp ([#42764](https://github.com/nodejs/node/pull/42764))
-- doc: improve building doc with windows debug build ([#42763](https://github.com/nodejs/node/pull/42763))
-- build: clarify missing clang-format tool ([#42762](https://github.com/nodejs/node/pull/42762))
-- test: make port arbitrary in net-perf_hooks ([#42761](https://github.com/nodejs/node/pull/42761))
-- src: define fs.constants.S_IWUSR & S_IRUSR for Win ([#42757](https://github.com/nodejs/node/pull/42757))
-- worker: add `hasRef()` to the handle object ([#42756](https://github.com/nodejs/node/pull/42756))
-- test: rename handlewrap.hasref tests ([#42754](https://github.com/nodejs/node/pull/42754))
-- doc: clarify core modules that can be loaded without a prefix ([#42753](https://github.com/nodejs/node/pull/42753))
-- doc: add `node:` prefix for all core modules ([#42752](https://github.com/nodejs/node/pull/42752))
-- test: validate websteam encoder/decoder inpector ([#42747](https://github.com/nodejs/node/pull/42747))
-- test: improve lib/internal/test_runner/test.js coverage ([#42745](https://github.com/nodejs/node/pull/42745))
-- deps: update V8 to 10.2 ([#42740](https://github.com/nodejs/node/pull/42740))
-- docs,test: add tests and docs for duplex.fromWeb and duplex.toWeb ([#42738](https://github.com/nodejs/node/pull/42738))
-- [v14.x] doc: specify flag needed for JSON modules ([#42736](https://github.com/nodejs/node/pull/42736))
-
-#### Open Discussions
-
-- http.request crash nodejs 32 bit ([#42705](https://github.com/nodejs/node/discussions/42705))
-- TLS CERT serial number as DEC ([#42615](https://github.com/nodejs/node/discussions/42615))
-- [off-topic post, locked] ([#42732](https://github.com/nodejs/node/discussions/42732))
-- When will the new Nodejs 16.x LTS  version release? ([#42715](https://github.com/nodejs/node/discussions/42715))
-- NPM supply chain attacks ([#42698](https://github.com/nodejs/node/discussions/42698))
-
-#### Merged Pull Requests
-
-- meta: update AUTHORS ([#42760](https://github.com/nodejs/node/pull/42760))
-- tools: update lint-md-dependencies to @rollup/plugin-commonjs@21.1.0 @rollup/plugin-node-resolve@13.2.1 rollup@2.70.2 ([#42759](https://github.com/nodejs/node/pull/42759))
-- tools: update doc to highlight.js@11.5.1 ([#42758](https://github.com/nodejs/node/pull/42758))
-- doc: close tag in n-api.md ([#42751](https://github.com/nodejs/node/pull/42751))
-- meta: move mmarchini to emeritus ([#42750](https://github.com/nodejs/node/pull/42750))
-- async_hooks: avoid decrementing iterator after erase ([#42749](https://github.com/nodejs/node/pull/42749))
-- benchmark: fix misc/startup failure ([#42746](https://github.com/nodejs/node/pull/42746))
-- doc: improve fragment (`:target`) anchors behavior on HTML version ([#42739](https://github.com/nodejs/node/pull/42739))
-- doc: fix `added:` info for `outgoingMessage.writable*` ([#42737](https://github.com/nodejs/node/pull/42737))
-- doc: revise data imports and node: imports sections ([#42734](https://github.com/nodejs/node/pull/42734))
-- doc: copyedit http.OutgoingMessage documentation ([#42733](https://github.com/nodejs/node/pull/42733))
-
-#### Closed Pull Requests
-
-- src: define S_IWUSR & S_IRUSR for Windows ([#42748](https://github.com/nodejs/node/pull/42748))
-- deps: upgrade npm to 8.7.0 ([#42744](https://github.com/nodejs/node/pull/42744))
-- [v16.x] doc: specify flag needed for JSON modules ([#42735](https://github.com/nodejs/node/pull/42735))
-- child_process: add hasRef to ChildProcess ([#42731](https://github.com/nodejs/node/pull/42731))
-
-### nodejs.dev
-
-#### Open Issues
-
-- Node.js  Website Redesign Strategic Initiative Meeting 2022-04-20 ([#2385](https://github.com/nodejs/nodejs.dev/issues/2385))
-
-#### Open Pull Requests
-
-- Update index.md ([#2384](https://github.com/nodejs/nodejs.dev/pull/2384))
-
-#### Merged Pull Requests
-
-- Update index.md ([#2383](https://github.com/nodejs/nodejs.dev/pull/2383))
-- Update index.md ([#2382](https://github.com/nodejs/nodejs.dev/pull/2382))
-
-### diagnostics
-
-#### Open Issues
-
-- Node.js  Diagnostics WorkGroup Meeting 2022-04-19 ([#556](https://github.com/nodejs/diagnostics/issues/556))
-
-#### Open Pull Requests
-
-- meta: move mmarchini to emeritus ([#555](https://github.com/nodejs/diagnostics/pull/555))
-
-### TSC
-
-#### Open Issues
-
-- Node.js Technical Steering Committee (TSC) Meeting 2022-04-20 ([#1212](https://github.com/nodejs/TSC/issues/1212))
-
-### http-parser
-
-#### Open Issues
-
-- Incremental builds with no changes still trigger refactoring ([#535](https://github.com/nodejs/http-parser/issues/535))
-
-### reliability
-
-#### Open Issues
-
-- CI Reliability 2022-04-18 ([#255](https://github.com/nodejs/reliability/issues/255))
-- CI Reliability 2022-04-17 ([#254](https://github.com/nodejs/reliability/issues/254))
-- CI Reliability 2022-04-16 ([#253](https://github.com/nodejs/reliability/issues/253))
-- CI Reliability 2022-04-15 ([#252](https://github.com/nodejs/reliability/issues/252))
-
-### help
-
-#### Open Issues
-
-- Refused to load the script * because it violates the following Content Security Policy directive ([#3829](https://github.com/nodejs/help/issues/3829))
-- 'edgesOut' ([#3828](https://github.com/nodejs/help/issues/3828))
-- what does ReadableSate.sync mean in lib/internal/streams/readable.js ([#3826](https://github.com/nodejs/help/issues/3826))
-
-### snap
-
-#### Open Issues
-
-- Version detection fails ([#31](https://github.com/nodejs/snap/issues/31))
-
-### node-addon-examples
-
-#### Open Issues
-
-- returning synchronous array in c++ addon ([#194](https://github.com/nodejs/node-addon-examples/issues/194))
-
-### build-toolchain-next
-
-#### Open Issues
-
-- Initiative needs a champion ([#13](https://github.com/nodejs/build-toolchain-next/issues/13))
-
-### node-addon-api
-
-#### Open Issues
-
-- Boilerplate-less way to write node-addon-api code ([#1163](https://github.com/nodejs/node-addon-api/issues/1163))
-
-#### Open Pull Requests
-
-- Add test coverage for async contexts ([#1164](https://github.com/nodejs/node-addon-api/pull/1164))
 
 ### build
 
 #### Open Issues
 
-- Access to @ShogunPanda to freebsd12-x64 test VM ([#2929](https://github.com/nodejs/build/issues/2929))
+- Add rust toolchain to CI machines ([#4245](https://github.com/nodejs/build/issues/4245))
+- LinuxONE maintenance 16 February 2026 ([#4244](https://github.com/nodejs/build/issues/4244))
+- Remove Statistics Gatherer Plug in ([#4243](https://github.com/nodejs/build/issues/4243))
 
-#### Open Pull Requests
+#### Merged Pull Requests
 
-- meta: move mmarchini to emeritus ([#2930](https://github.com/nodejs/build/pull/2930))
-- doc: update Build WG Slack channel ([#2928](https://github.com/nodejs/build/pull/2928))
-- jenkins: run win32 CI on Node.js 19 ([#2927](https://github.com/nodejs/build/pull/2927))
+- ansible: add RHEL 8 Power 9 hosts ([#4242](https://github.com/nodejs/build/pull/4242))
+- ansible: remove 2 Windows 11 ARM64 machines ([#4241](https://github.com/nodejs/build/pull/4241))
 
-### llhttp
-
-#### Open Issues
-
-- Support parsing chunk-extension for Transfer-Encoding: chunked ([#153](https://github.com/nodejs/llhttp/issues/153))
-
-### i18n
+### node
 
 #### Open Issues
 
-- i18n WG Meeting April 15th ([#647](https://github.com/nodejs/i18n/issues/647))
+- `parallel/test-temporal-with-zoneinfo` fails on Linux s390x ([#61808](https://github.com/nodejs/node/issues/61808))
+- fs.watch performance degradation with large directories ([#61802](https://github.com/nodejs/node/issues/61802))
+- Request: Backport loader fix to v22.x ([#61801](https://github.com/nodejs/node/issues/61801))
+- Cross-build x64 host -> arm target fails in V8 host arch guard (v8config.h) ([#61794](https://github.com/nodejs/node/issues/61794))
+- Allow type stripping in pnpm deploy monorepos ([#61793](https://github.com/nodejs/node/issues/61793))
+- subpath imports starting with #/ in LTS ([#61781](https://github.com/nodejs/node/issues/61781))
 
 #### Open Pull Requests
 
-- build(deps-dev): bump fs-extra from 10.0.1 to 10.1.0 ([#648](https://github.com/nodejs/i18n/pull/648))
+- build: use path-ignore in GHA coverage-windows.yml ([#61811](https://github.com/nodejs/node/pull/61811))
+- build: add temporal test on GHA windows ([#61810](https://github.com/nodejs/node/pull/61810))
+- stream: add fast paths for webstreams read and pipeTo ([#61807](https://github.com/nodejs/node/pull/61807))
+- build: enable Temporal by default ([#61806](https://github.com/nodejs/node/pull/61806))
+- doc: add Temporal section to Table of Contents ([#61805](https://github.com/nodejs/node/pull/61805))
+- test: fix flaky test-http2-close-while-writing ([#61804](https://github.com/nodejs/node/pull/61804))
+- module: remove --experimental-transform-types ([#61803](https://github.com/nodejs/node/pull/61803))
+- stream: fix pipeTo to defer writes per WHATWG spec ([#61800](https://github.com/nodejs/node/pull/61800))
+- doc: fix grammar in README ([#61797](https://github.com/nodejs/node/pull/61797))
+- test: add retry logic for eventloopdelay histogram sampling ([#61796](https://github.com/nodejs/node/pull/61796))
+- lib: optimize styleText when validateStream is false ([#61792](https://github.com/nodejs/node/pull/61792))
+- build: `generate_config_gypi.py` generates valid JSON ([#61791](https://github.com/nodejs/node/pull/61791))
+- build: skip sscache action on non-main branches ([#61790](https://github.com/nodejs/node/pull/61790))
+- [v22.x] src: use std::sort in node_metadata for libc++13 compatibility ([#61789](https://github.com/nodejs/node/pull/61789))
+- crypto: Fix potential null pointer dereference when BIO_meth_new() fails ([#61788](https://github.com/nodejs/node/pull/61788))
+- src: remove unnecessary `c_str()` conversions in diagnostic messages ([#61786](https://github.com/nodejs/node/pull/61786))
+- doc: remove obsolete Boxstarter automated install ([#61785](https://github.com/nodejs/node/pull/61785))
+- src: enable X509sToArrayOfStrings to skip errors ([#61784](https://github.com/nodejs/node/pull/61784))
+- docs: add missing documentation for fs.StatFs class (#50749) ([#61783](https://github.com/nodejs/node/pull/61783))
+- url: doc deprecate url.resolve ([#61780](https://github.com/nodejs/node/pull/61780))
+- watch: get flags from execArgv ([#61779](https://github.com/nodejs/node/pull/61779))
 
-### docker-node
+#### Merged Pull Requests
+
+- test_runner: fix suite rerun ([#61775](https://github.com/nodejs/node/pull/61775))
 
 #### Closed Issues
 
-- ALPINE-CVE-2022-28391 node:16.14-alpine3.15 ([#1695](https://github.com/nodejs/docker-node/issues/1695))
-- Permission denied while yarn install with VirtioFS ([#1694](https://github.com/nodejs/docker-node/issues/1694))
+- Working resolver for native TS support ([#61799](https://github.com/nodejs/node/issues/61799))
+- Rearranged1 ([#61782](https://github.com/nodejs/node/issues/61782))
+- Brain ai ([#61777](https://github.com/nodejs/node/issues/61777))
 
-### branch-diff
+#### Closed Pull Requests
 
-#### Open Issues
+- Create devcontainer.json ([#61809](https://github.com/nodejs/node/pull/61809))
+- deps: V8: cherry-pick 64b36b441179 ([#61798](https://github.com/nodejs/node/pull/61798))
+- src: use std::sort in node_metadata for libc++13 compatibility ([#61787](https://github.com/nodejs/node/pull/61787))
+- util: move TextEncoder class to C++ ([#61778](https://github.com/nodejs/node/pull/61778))
+- url: only emit DEP0169 on url.parse ([#61776](https://github.com/nodejs/node/pull/61776))
 
-- Adding the release team as maintainers ([#51](https://github.com/nodejs/branch-diff/issues/51))
-
-### changelog-maker
-
-#### Open Issues
-
-- Adding the release team as maintainers ([#128](https://github.com/nodejs/changelog-maker/issues/128))
-
-### node-gyp
+### release-cloudflare-worker
 
 #### Open Issues
 
-- Some tests fail because certificate expired ([#2645](https://github.com/nodejs/node-gyp/issues/2645))
+- Error: Worker exceeded memory limit. ([#857](https://github.com/nodejs/release-cloudflare-worker/issues/857))
+- Error: Worker exceeded memory limit. ([#856](https://github.com/nodejs/release-cloudflare-worker/issues/856))
 
-### nodejs.org
+#### Closed Issues
 
-#### Open Pull Requests
-
-- build(deps-dev): bump stylelint from 14.6.1 to 14.7.1 ([#4547](https://github.com/nodejs/nodejs.org/pull/4547))
-- build(deps): bump jquery.fancytable from 1.0.28 to 1.0.30 ([#4546](https://github.com/nodejs/nodejs.org/pull/4546))
-- fix: add Node.js 16.x and 17.x to generated version link list ([#4545](https://github.com/nodejs/nodejs.org/pull/4545))
-
-### corepack
-
-#### Open Pull Requests
-
-- chore: update dependencies, remove unused ones ([#100](https://github.com/nodejs/corepack/pull/100))
-- Fixes `corepack prepare` when no additional arguments are passed ([#99](https://github.com/nodejs/corepack/pull/99))
-
-### make-node-meeting
-
-#### Merged Pull Requests
-
-- chore: update node-meeting-agenda from 1.x to 2.x ([#45](https://github.com/nodejs/make-node-meeting/pull/45))
-- add shellcheck linting, do not publish example files to npm, update dependencies, add package-lock.json ([#44](https://github.com/nodejs/make-node-meeting/pull/44))
-
-### node-meeting-agenda
-
-#### Merged Pull Requests
-
-- chore: bump ghauth from 3.2.0 to 5.0.1 ([#5](https://github.com/nodejs/node-meeting-agenda/pull/5))
-- add package-lock.json, bump ghrepos, add linting ([#4](https://github.com/nodejs/node-meeting-agenda/pull/4))
-
-### create-node-meeting-artifacts
-
-#### Merged Pull Requests
-
-- meta: remove mmarchini from TSC meeting invite ([#113](https://github.com/nodejs/create-node-meeting-artifacts/pull/113))
-
-### email
-
-#### Open Pull Requests
-
-- meta: remove mmarchini from mailing lists ([#187](https://github.com/nodejs/email/pull/187))
+- 502 Response ([#855](https://github.com/nodejs/release-cloudflare-worker/issues/855))
+- 502 Response ([#854](https://github.com/nodejs/release-cloudflare-worker/issues/854))
+- 502 Response ([#853](https://github.com/nodejs/release-cloudflare-worker/issues/853))
+- 502 Response ([#852](https://github.com/nodejs/release-cloudflare-worker/issues/852))
+- 502 Response ([#850](https://github.com/nodejs/release-cloudflare-worker/issues/850))
+- 502 Response ([#851](https://github.com/nodejs/release-cloudflare-worker/issues/851))
 
 ### unofficial-builds
 
+#### Open Issues
+
+- `ccache` effectively unused in unofficial-builds ([#213](https://github.com/nodejs/unofficial-builds/issues/213))
+- Should we create per-platform labels in this repository? ([#212](https://github.com/nodejs/unofficial-builds/issues/212))
+
 #### Open Pull Requests
 
-- meta: move mmarchini to emeritus ([#57](https://github.com/nodejs/unofficial-builds/pull/57))
-
-### admin
+- fix: make ccache work properly by using CCACHE_BASEDIR ([#214](https://github.com/nodejs/unofficial-builds/pull/214))
+- chore: update readme to reflect v24 on riscv64 now working ([#211](https://github.com/nodejs/unofficial-builds/pull/211))
 
 #### Merged Pull Requests
 
-- meta: move mmarchini to emeritus ([#680](https://github.com/nodejs/admin/pull/680))
+- chore: re-add linux/riscv64 v24 ([#210](https://github.com/nodejs/unofficial-builds/pull/210))
+- chore: switch build order - popular first, dead last ([#208](https://github.com/nodejs/unofficial-builds/pull/208))
+- chore: fix x64-usdt should-build perms to be executable ([#207](https://github.com/nodejs/unofficial-builds/pull/207))
+
+#### Closed Issues
+
+- 24.13.1 missing in unofficial builds link https://unofficial-builds.nodejs.org/download/release/v24.13.1/ ([#209](https://github.com/nodejs/unofficial-builds/issues/209))
+- 24.13.1 alpine is missing https://hub.docker.com/_/node ([#206](https://github.com/nodejs/unofficial-builds/issues/206))
+- riscv64: node 24 build is missing ([#205](https://github.com/nodejs/unofficial-builds/issues/205))
+- Node build 25.6.1 is missing ([#204](https://github.com/nodejs/unofficial-builds/issues/204))
+
+### jenkins-alerts
+
+#### Closed Issues
+
+- test-rackspace-win2022_vs2022-x64-4 has low disk space ([#5111](https://github.com/nodejs/jenkins-alerts/issues/5111))
+- test-rackspace-win2022_vs2022-x64-4 has low disk space ([#5110](https://github.com/nodejs/jenkins-alerts/issues/5110))
+- test-rackspace-win2022_vs2022-x64-6 has low disk space ([#5109](https://github.com/nodejs/jenkins-alerts/issues/5109))
+- test-osuosl-aix72-ppc64_be-3 is DOWN ([#5108](https://github.com/nodejs/jenkins-alerts/issues/5108))
+- test-rackspace-win2022_vs2022-x64-6 has low disk space ([#5107](https://github.com/nodejs/jenkins-alerts/issues/5107))
+
+### security-wg
+
+#### Open Issues
+
+- Node.js Security team Meeting 2026-02-19 ([#1553](https://github.com/nodejs/security-wg/issues/1553))
+- Node.js PURL is missing namespace ([#1552](https://github.com/nodejs/security-wg/issues/1552))
+
+#### Open Pull Requests
+
+- fix: correct the node.js purl ([#1551](https://github.com/nodejs/security-wg/pull/1551))
+
+### reliability
+
+#### Open Issues
+
+- CI Reliability 2026-02-13 ([#1462](https://github.com/nodejs/reliability/issues/1462))
+- CI Reliability 2026-02-12 ([#1461](https://github.com/nodejs/reliability/issues/1461))
+
+### nodejs-dependency-vuln-assessments
+
+#### Open Issues
+
+- Vuln CVE-2026-24842 CVE-2026-25547 ([#261](https://github.com/nodejs/nodejs-dependency-vuln-assessments/issues/261))
+
+### nodejs.org
+
+#### Open Issues
+
+- Improve the Supporters section ([#8621](https://github.com/nodejs/nodejs.org/issues/8621))
+
+#### Open Pull Requests
+
+- [automated]: crowdin sync ([#8624](https://github.com/nodejs/nodejs.org/pull/8624))
+- docs: update explanation of setImmediate vs setTimeout ([#8623](https://github.com/nodejs/nodejs.org/pull/8623))
+- feat(i18n): enable ta translation ([#8622](https://github.com/nodejs/nodejs.org/pull/8622))
+
+#### Merged Pull Requests
+
+- meta: bump rehype-shiki ([#8625](https://github.com/nodejs/nodejs.org/pull/8625))
+- chore: adjust ui-components publishing ([#8620](https://github.com/nodejs/nodejs.org/pull/8620))
+
+#### Closed Pull Requests
+
+- chore(ui): use compiled exports by default ([#8626](https://github.com/nodejs/nodejs.org/pull/8626))
 
 ### next-10
 
+#### Open Issues
+
+- Node.js Next 10 Years team Meeting 2026-02-18 ([#374](https://github.com/nodejs/next-10/issues/374))
+
+### TSC
+
+#### Open Issues
+
+- Node.js Technical Steering Committee (TSC) Meeting 2026-02-18 ([#1822](https://github.com/nodejs/TSC/issues/1822))
+
 #### Open Pull Requests
 
-- meta: move mmarchini to emeritus ([#129](https://github.com/nodejs/next-10/pull/129))
+- Add minutes for 11 feb meeting ([#1821](https://github.com/nodejs/TSC/pull/1821))
 
-### readable-stream
+### merve
+
+#### Merged Pull Requests
+
+- Add line numbers support ([#10](https://github.com/nodejs/merve/pull/10))
+
+### undici
 
 #### Open Pull Requests
 
-- Node 18 ([#471](https://github.com/nodejs/readable-stream/pull/471))
+- feat!: enable h2 by default ([#4828](https://github.com/nodejs/undici/pull/4828))
+- fix: isolate global dispatcher v2 and add Dispatcher1Wrapper bridge ([#4827](https://github.com/nodejs/undici/pull/4827))
+- feat: Option to restrict the number of free/idle sockets ([#4825](https://github.com/nodejs/undici/pull/4825))
+- fix: harden header iterable checks for prototype-pollution scenarios ([#4824](https://github.com/nodejs/undici/pull/4824))
+
+#### Open Discussions
+
+- Does the globalDispatcher symbol need to be updated? ([#4822](https://github.com/nodejs/undici/discussions/4822))
+- How are undici developers using AI? ([#4805](https://github.com/nodejs/undici/discussions/4805))
+- 1 second latency issues. (TCP retransmission?) ([#4811](https://github.com/nodejs/undici/discussions/4811))
+
+#### Merged Pull Requests
+
+- feat: Support async cache stores in revalidation ([#4826](https://github.com/nodejs/undici/pull/4826))
+
+#### Closed Pull Requests
+
+- feat!: enable h2 by default ([#4823](https://github.com/nodejs/undici/pull/4823))
+
+### amaro
+
+#### Merged Pull Requests
+
+- docs: document module.register() bootstrap usage ([#382](https://github.com/nodejs/amaro/pull/382))
+
+### docker-node
+
+#### Merged Pull Requests
+
+- chore(deps): bump docker/build-push-action from 6.19.1 to 6.19.2 ([#2380](https://github.com/nodejs/docker-node/pull/2380))
+- feat: Node.js 24.13.1, 25.6.1 ([#2379](https://github.com/nodejs/docker-node/pull/2379))
+- chore(deps): bump docker/build-push-action from 6.18.0 to 6.19.1 ([#2378](https://github.com/nodejs/docker-node/pull/2378))
+- fix(stackbrew): read the fullversion for each image ([#2377](https://github.com/nodejs/docker-node/pull/2377))
+
+### ncrypto
+
+#### Merged Pull Requests
+
+- crypto: add null check to BIOPointer::New() ([#35](https://github.com/nodejs/ncrypto/pull/35))
+
+### devcontainer
+
+#### Closed Pull Requests
+
+- Update LICENSE ([#25](https://github.com/nodejs/devcontainer/pull/25))
+
+### llparse
+
+#### Open Pull Requests
+
+- fix: detect Arm NEON with alternative predefined macro ([#84](https://github.com/nodejs/llparse/pull/84))
+
+### llhttp
+
+#### Open Pull Requests
+
+- chore: Pin python version to fix aiohttp regression tests ([#788](https://github.com/nodejs/llhttp/pull/788))
+- Add support for relaxed header value parsing ([#787](https://github.com/nodejs/llhttp/pull/787))
+
+### create-node-meeting-artifacts
+
+#### Open Pull Requests
+
+- chore(deps): bump axios from 1.12.2 to 1.13.5 ([#220](https://github.com/nodejs/create-node-meeting-artifacts/pull/220))
+
+### nbytes
+
+#### Open Pull Requests
+
+- chore(main): release 0.1.3 ([#13](https://github.com/nodejs/nbytes/pull/13))
+
+### help
+
+#### Open Discussions
+
+- --experimental-addon-modules stability ([#5127](https://github.com/orgs/nodejs/discussions/5127))
+
+### test-runner
+
+#### Open Discussions
+
+- [config file] Implicitly enable namespace for test runner ([#12](https://github.com/nodejs/test-runner/discussions/12))
